@@ -5,6 +5,7 @@ import {
   legacyMediaItems,
   publicReferenceItems,
 } from "../data";
+import YouTubePreview from "./YouTubePreview";
 
 export const metadata: Metadata = { title: "地方知識庫／影音典藏" };
 
@@ -45,14 +46,17 @@ export default function ArchivePage() {
                   {item.topics.map((topic) => <span key={topic}>{topic}</span>)}
                 </div>
               </div>
-              <a
-                className="source-link"
-                href={item.url}
-                target="_blank"
-                rel="noreferrer"
-              >
-                前往原始影片 <span aria-hidden="true">↗</span>
-              </a>
+              <div className="media-player-column">
+                <YouTubePreview url={item.url} title={item.title} />
+                <a
+                  className="source-link"
+                  href={item.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  無法播放？前往原始影片 <span aria-hidden="true">↗</span>
+                </a>
+              </div>
             </article>
           ))}
         </div>
