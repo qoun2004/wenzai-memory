@@ -24,6 +24,25 @@ export function StatusBadge({ status }: { status: string }) {
   return <span className={`status-badge ${tone}`}>{status}</span>;
 }
 
+export function SourceNote({
+  label,
+  href,
+  prefix = "資料來源",
+}: {
+  label: string;
+  href: string;
+  prefix?: string;
+}) {
+  return (
+    <p className="source-note">
+      <span>{prefix}</span>
+      <a href={href} target="_blank" rel="noreferrer">
+        {label} <span aria-hidden="true">↗</span>
+      </a>
+    </p>
+  );
+}
+
 export function PageHero({
   eyebrow,
   title,

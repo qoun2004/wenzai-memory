@@ -81,7 +81,7 @@ export default function ActionsPage() {
               target="_blank"
               rel="noreferrer"
             >
-              閱讀《城市學》原始報導 <span aria-hidden="true">↗</span>
+              資料來源：《城市學》原始報導 <span aria-hidden="true">↗</span>
             </a>
           </article>
         </div>

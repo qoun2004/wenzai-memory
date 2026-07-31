@@ -1,19 +1,32 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageHero, StatusBadge } from "../../components";
 
 export const metadata: Metadata = {
   title: "摃梗與鹽地雜糧記憶",
+  description: "嘉義縣鄉村永續發展協會2026主題子計畫：記錄塭仔摃梗、鹽地雜糧、地方歌謠與黑豆食農。",
+  openGraph: { images: ["/og.png"] },
 };
 
 export default function GonggenProjectPage() {
   return (
     <>
       <PageHero
-        eyebrow="2026 主題計畫"
+        eyebrow="協會主題子計畫｜2026"
         title="摃梗：鹽地雜糧的記憶與新生"
         lead="當一件工具逐漸離開日常生活，與它相連的土地、作物、換工、歌謠、飲食與人際關係，要如何被記住，並重新成為今天仍有人願意使用的地方文化？"
         note="「摃梗」的地方讀音、正確寫法、作物與操作名稱，將依耆老訪談及實物確認持續修訂。"
       />
+      <section className="project-parent-bar">
+        <div className="site-width project-parent-inner">
+          <div>
+            <span>上層組織</span>
+            <strong>嘉義縣鄉村永續發展協會</strong>
+          </div>
+          <p>本頁是協會大架構下的「塭仔摃梗與鹽地雜糧記憶」子計畫，不代表協會全部業務。</p>
+          <Link href="/about">查看協會架構 ↗</Link>
+        </div>
+      </section>
       <section className="section site-width">
         <div className="fact-strip">
           <div className="fact"><strong>10位</strong><span>人物訪談規劃</span></div>

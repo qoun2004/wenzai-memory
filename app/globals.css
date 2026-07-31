@@ -102,9 +102,187 @@ summary {
 
 .brand strong {
   font-family: "Noto Serif TC", "Songti TC", serif;
-  font-size: 1.25rem;
-  letter-spacing: 0.12em;
+  font-size: 1.02rem;
+  letter-spacing: 0.06em;
 }
+
+.association-hero h1 {
+  font-size: clamp(3rem, 5.5vw, 5.3rem);
+}
+
+.association-map {
+  position: relative;
+  min-height: 510px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+}
+
+.map-ring {
+  position: absolute;
+  inset: 14%;
+  border: 1px solid rgba(232, 185, 85, 0.35);
+  border-radius: 50%;
+}
+
+.map-ring.ring-two {
+  inset: 29%;
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.association-node {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  width: 210px;
+  height: 210px;
+  place-content: center;
+  border-radius: 50%;
+  background: var(--clay);
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.association-node small,
+.association-node span {
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.7rem;
+}
+
+.association-node strong {
+  margin: 0.2rem 0;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.65rem;
+}
+
+.place-dot {
+  position: absolute;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  background: var(--sea);
+  color: #f2cc7b;
+  font-size: 0.78rem;
+}
+
+.dot-wenzai { top: 9%; left: 51%; }
+.dot-zhouzi { right: 3%; bottom: 26%; }
+.dot-lizilun { left: 3%; bottom: 19%; }
+
+.program-structure {
+  display: grid;
+  grid-template-columns: 1fr 52px 1fr 52px 1fr;
+  align-items: stretch;
+  margin-top: 2.2rem;
+}
+
+.program-level {
+  display: flex;
+  min-height: 310px;
+  flex-direction: column;
+  padding: 2rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
+.program-level.umbrella { border-top: 5px solid var(--sea); }
+.program-level.regional { border-top: 5px solid var(--grain); }
+.program-level.project { border-top: 5px solid var(--clay); }
+
+.program-level h3 {
+  margin: 0 0 1rem;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.6rem;
+  line-height: 1.35;
+}
+
+.program-level > p:not(.program-index) { color: var(--muted); }
+.program-level .arrow-link { margin-top: auto; }
+
+.program-index {
+  margin: 0 0 1.3rem;
+  color: var(--clay);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.program-connector {
+  display: grid;
+  place-items: center;
+  color: var(--clay);
+  font-size: 1.5rem;
+  transform: rotate(-90deg);
+}
+
+.program-structure.horizontal {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.source-note {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.source-note span:first-child {
+  margin-right: 0.5rem;
+  color: var(--clay);
+  font-weight: 700;
+}
+
+.source-note a {
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.featured-video {
+  padding-bottom: 1.3rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-video .archive-type { margin-top: 1.1rem; }
+
+.featured-video h3 {
+  min-height: 3.2em;
+  margin: 0.2rem 0 0.6rem;
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.featured-video > p:not(.archive-type) {
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.project-parent-bar {
+  border-bottom: 1px solid var(--line);
+  background: var(--paper-deep);
+}
+
+.project-parent-inner {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr auto;
+  gap: 2rem;
+  align-items: center;
+  padding-block: 1.25rem;
+}
+
+.project-parent-inner div span,
+.project-parent-inner div strong { display: block; }
+.project-parent-inner div span { color: var(--clay); font-size: 0.7rem; font-weight: 700; }
+.project-parent-inner div strong { font-family: "Noto Serif TC", serif; }
+.project-parent-inner p { margin: 0; color: var(--muted); font-size: 0.82rem; }
+.project-parent-inner > a { color: var(--sea); font-size: 0.8rem; font-weight: 700; }
 
 .brand small {
   color: rgba(255, 255, 255, 0.65);
@@ -895,7 +1073,9 @@ summary {
 
 .footer-brand {
   font-family: "Noto Serif TC", serif;
-  font-size: 3rem;
+  max-width: 18ch;
+  font-size: 2rem;
+  line-height: 1.35;
 }
 
 .footer-grid h2 {
@@ -979,9 +1159,26 @@ summary {
 
   .theme-grid,
   .card-grid,
-  .archive-grid {
+  .archive-grid,
+  .featured-video-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .program-structure {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .program-connector {
+    min-height: 52px;
+    transform: none;
+  }
+
+  .project-parent-inner {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-parent-inner > a { grid-column: 1 / -1; }
 
   .media-record {
     grid-template-columns: 7.5rem minmax(0, 1fr);
@@ -1043,9 +1240,18 @@ summary {
 
   .theme-grid,
   .card-grid,
-  .archive-grid {
+  .archive-grid,
+  .featured-video-grid,
+  .program-structure.horizontal {
     grid-template-columns: 1fr;
   }
+
+  .association-map { min-height: 360px; }
+  .association-node { width: 160px; height: 160px; }
+  .association-node strong { font-size: 1.3rem; }
+  .program-level { min-height: 270px; }
+  .project-parent-inner { grid-template-columns: 1fr; gap: 0.6rem; }
+  .project-parent-inner > a { grid-column: auto; }
 
   .archive-summary {
     grid-template-columns: 1fr;

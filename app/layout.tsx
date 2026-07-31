@@ -11,36 +11,27 @@ const siteUrl =
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "塭仔｜土地、技藝與生活記憶",
-    template: "%s｜塭仔",
+    default: "嘉義縣鄉村永續發展協會｜大東石地方行動與記憶平台",
+    template: "%s｜嘉義縣鄉村永續發展協會",
   },
   description:
-    "保存並持續整理塭仔社區的人、生活、產業、記憶與長期社區行動。",
+    "整理嘉義東石地區的居民行動、地方文化、食農教育與長期社區成果。",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
   },
   openGraph: {
-    title: "塭仔｜土地、技藝與生活記憶",
+    title: "嘉義縣鄉村永續發展協會｜大東石地方行動與記憶平台",
     description:
-      "保存並持續整理塭仔社區的人、生活、產業、記憶與長期社區行動。",
+      "整理嘉義東石地區的居民行動、地方文化、食農教育與長期社區成果。",
     locale: "zh_TW",
     type: "website",
-    images: [
-      {
-        url: "/og.png",
-        width: 1200,
-        height: 630,
-        alt: "塭仔：土地、技藝、生活記憶",
-      },
-    ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "塭仔｜土地、技藝與生活記憶",
+    card: "summary",
+    title: "嘉義縣鄉村永續發展協會",
     description:
-      "保存並持續整理塭仔社區的人、生活、產業、記憶與長期社區行動。",
-    images: ["/og.png"],
+      "大東石地方行動、地方文化、食農教育與長期社區成果平台。",
   },
 };
 
@@ -48,11 +39,11 @@ function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-width header-inner">
-        <Link className="brand" href="/" aria-label="回到塭仔網站首頁">
-          <span className="brand-mark">塭</span>
+        <Link className="brand" href="/" aria-label="回到嘉義縣鄉村永續發展協會網站首頁">
+          <span className="brand-mark">鄉</span>
           <span>
-            <strong>塭仔</strong>
-            <small>土地・技藝・生活記憶</small>
+            <strong>嘉義縣鄉村永續發展協會</strong>
+            <small>大東石地方行動與記憶平台</small>
           </span>
         </Link>
         <nav className="desktop-nav" aria-label="主要導覽">
@@ -62,8 +53,8 @@ function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <Link className="visit-link" href="/visit">
-          來塭仔
+        <Link className="visit-link" href="/projects/gonggen">
+          塭仔摃梗計畫
         </Link>
         <details className="mobile-menu">
           <summary aria-label="開啟選單">選單</summary>
@@ -73,7 +64,8 @@ function SiteHeader() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/visit">來塭仔／預約體驗</Link>
+            <Link href="/projects/gonggen">塭仔摃梗子計畫</Link>
+            <Link href="/visit">參訪與體驗</Link>
           </nav>
         </details>
       </div>
@@ -86,23 +78,24 @@ function SiteFooter() {
     <footer className="site-footer">
       <div className="site-width footer-grid">
         <div>
-          <div className="footer-brand">塭仔</div>
-          <p>保存土地裡的聲音，也為下一次相遇留下入口。</p>
+          <div className="footer-brand">嘉義縣鄉村永續發展協會</div>
+          <p>串連人、土地與地方行動，讓累積的成果繼續被看見、被使用。</p>
         </div>
         <div>
-          <h2>網站內容</h2>
-          <Link href="/projects/gonggen">摃梗主題計畫</Link>
-          <Link href="/education">食農教育與體驗</Link>
+          <h2>協會平台</h2>
+          <Link href="/about">關於協會</Link>
+          <Link href="/actions">行動與計畫</Link>
           <Link href="/archive">地方知識庫</Link>
         </div>
         <div>
-          <h2>執行與維護</h2>
-          <p>嘉義縣鄉村永續發展協會</p>
-          <p>第一版資料持續整理中</p>
+          <h2>本期子計畫</h2>
+          <Link href="/projects/gonggen">摃梗主題計畫</Link>
+          <Link href="/education">食農教育與體驗</Link>
+          <Link href="/visit">參訪與活動</Link>
         </div>
       </div>
       <div className="site-width footer-bottom">
-        <span>© 2026 塭仔社區地方記憶網站</span>
+        <span>© 2026 社團法人嘉義縣鄉村永續發展協會</span>
         <span>內容依訪談、來源與授權狀態逐步公開</span>
       </div>
     </footer>

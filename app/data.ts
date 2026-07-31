@@ -1,11 +1,29 @@
 export const navItems = [
-  { label: "認識塭仔", href: "/place" },
-  { label: "人與產業", href: "/people" },
-  { label: "社區行動", href: "/actions" },
+  { label: "關於協會", href: "/about" },
+  { label: "區域與聚落", href: "/place" },
+  { label: "行動與計畫", href: "/actions" },
   { label: "食農教育", href: "/education" },
-  { label: "摃梗計畫", href: "/projects/gonggen" },
   { label: "地方典藏", href: "/archive" },
 ];
+
+export const associationSources = {
+  registration: {
+    label: "司法院法人登記公告｜社團法人嘉義縣鄉村永續發展協會",
+    url: "https://www.judicial.gov.tw/tw/cp-144-335773-38c74-1.html",
+  },
+  mission: {
+    label: "兒童福利聯盟｜合作組織介紹",
+    url: "https://league.children.org.tw/organization_intro/index/nc4iv",
+  },
+  regionalAction: {
+    label: "主婦聯盟環境保護基金會｜嘉義縣鄉村永續發展協會",
+    url: "https://www.huf.org.tw/essay/content/4615",
+  },
+  ruralNetwork: {
+    label: "農業部農村發展及水土保持署｜從素人到達人的地方行動",
+    url: "https://www.ardswc.gov.tw/Home/Topic/show_detail?id=052df733c8c944de8dc3c6ba6bdbe5f6",
+  },
+};
 
 export const themes = [
   {

@@ -86,7 +86,7 @@ export default function PlacePage() {
           target="_blank"
           rel="noreferrer"
         >
-          閱讀中正E報場域紀錄 <span aria-hidden="true">↗</span>
+          資料來源：中正E報場域紀錄 <span aria-hidden="true">↗</span>
         </a>
       </section>
 
