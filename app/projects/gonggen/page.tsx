@@ -96,7 +96,7 @@ export default function GonggenProjectPage() {
             </figure>
           </div>
           <p className="material-credit">
-            照片與影片素材提供：吳淑芳。資料夾標示2026.07.27，現場黑板記錄7/22；正式活動日期待協會核對。
+            活動日期：2026.07.22（以現場黑板記錄為準）｜照片與影片素材提供：吳淑芳。
           </p>
         </div>
       </section>
