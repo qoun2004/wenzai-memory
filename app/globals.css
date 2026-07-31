@@ -284,6 +284,93 @@ summary {
 .project-parent-inner p { margin: 0; color: var(--muted); font-size: 0.82rem; }
 .project-parent-inner > a { color: var(--sea); font-size: 0.8rem; font-weight: 700; }
 
+.field-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.1rem;
+}
+
+.field-photo {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
+.field-photo-wide {
+  grid-column: span 2;
+}
+
+.field-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.field-photo-wide img {
+  aspect-ratio: 16 / 8;
+}
+
+.field-photo figcaption {
+  padding: 0.9rem 1rem 1rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.field-insight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-top: 5px solid var(--clay);
+  background: var(--sea);
+  color: var(--white);
+}
+
+.field-insight h3 {
+  margin: 0.2rem 0 1rem;
+  font-family: "Noto Serif TC", serif;
+  font-size: clamp(1.65rem, 3vw, 2.4rem);
+}
+
+.field-insight > p:not(.archive-type) {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.material-credit {
+  margin: 1.2rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--clay);
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.usability-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  margin-top: 1.5rem;
+  background: var(--line);
+}
+
+.usability-grid article {
+  padding: 1.5rem;
+  background: var(--white);
+}
+
+.usability-grid strong {
+  color: var(--clay);
+  font-family: "Noto Serif TC", serif;
+  font-size: 1.2rem;
+}
+
+.usability-grid p {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+}
+
 .brand small {
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.68rem;
@@ -1160,7 +1247,8 @@ summary {
   .theme-grid,
   .card-grid,
   .archive-grid,
-  .featured-video-grid {
+  .featured-video-grid,
+  .usability-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -1242,9 +1330,14 @@ summary {
   .card-grid,
   .archive-grid,
   .featured-video-grid,
-  .program-structure.horizontal {
+  .program-structure.horizontal,
+  .field-gallery,
+  .usability-grid {
     grid-template-columns: 1fr;
   }
+
+  .field-photo-wide { grid-column: auto; }
+  .field-photo-wide img { aspect-ratio: 4 / 3; }
 
   .association-map { min-height: 360px; }
   .association-node { width: 160px; height: 160px; }
