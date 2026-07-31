@@ -48,6 +48,44 @@ export default function ActionsPage() {
           </InfoCard>
         </div>
       </section>
+      <section className="section site-width">
+        <div className="prose-grid">
+          <aside>
+            <p className="eyebrow">名詞與來源說明</p>
+            <p>
+              嘉義縣曾參與教育部推動的學習型城市政策；目前找到的資料顯示，
+              塭仔的做法與「在地學習、居民培力、跨域合作」精神相近，
+              但尚未確認有一個正式名稱就叫「塭仔學習型城市計畫」。
+            </p>
+            <a
+              className="arrow-link"
+              href="https://www.moe.gov.tw/News_Content.aspx?n=9E7AC85F1954DDA8&s=343C7A26C93C7F04&sms=169B8E91BB75571F"
+              target="_blank"
+              rel="noreferrer"
+            >
+              查看教育部政策來源 <span aria-hidden="true">↗</span>
+            </a>
+          </aside>
+          <article>
+            <p className="eyebrow">學習型社區</p>
+            <h2>塭仔如何把學習轉成地方行動</h2>
+            <div className="steps">
+              <div className="step"><div><h3>先走出去學</h3><p>公開報導記載，吳淑芳自1988年起參與農業與農村相關課程，2010年再投入農村再生顧問師訓練。</p></div></div>
+              <div className="step"><div><h3>在移動中形成共識</h3><p>透過帶居民參訪其他社區，將車程變成分享案例、討論問題的「包車會議室」。</p></div></div>
+              <div className="step"><div><h3>讓居民從小事開始</h3><p>從長者活動、新住民風味餐、解說培力與共同空間，讓參與者一邊實作、一邊累積信心。</p></div></div>
+              <div className="step"><div><h3>再連成區域網絡</h3><p>從塭仔向白水湖、網寮、栗子崙與洲仔等地延伸，形成跨社區合作與嘉義濱海漁村生活圈的想像。</p></div></div>
+            </div>
+            <a
+              className="arrow-link"
+              href="https://city.gvm.com.tw/article/74741"
+              target="_blank"
+              rel="noreferrer"
+            >
+              閱讀《城市學》原始報導 <span aria-hidden="true">↗</span>
+            </a>
+          </article>
+        </div>
+      </section>
     </>
   );
 }

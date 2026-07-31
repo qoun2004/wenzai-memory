@@ -22,7 +22,7 @@ export default function ArchivePage() {
         <div className="archive-summary">
           <div><strong>18</strong><span>支不重複公開影音</span></div>
           <div><strong>2009—2025</strong><span>目前索引年代</span></div>
-          <div><strong>1</strong><span>筆政府公開資料頁</span></div>
+          <div><strong>{publicReferenceItems.length}</strong><span>筆公開文章與資料頁</span></div>
         </div>
         <div className="section-heading archive-heading">
           <div>
@@ -65,8 +65,8 @@ export default function ArchivePage() {
         <div className="site-width">
           <div className="section-heading archive-heading">
             <div>
-              <p className="eyebrow">相關公開文件</p>
-              <h2>空間與社區行動資料</h2>
+              <p className="eyebrow">第二批公開索引</p>
+              <h2>文章、計畫與社區行動資料</h2>
             </div>
             <p>保留原始發布單位與連結，讓後續研究能回到來源核對。</p>
           </div>
@@ -83,7 +83,7 @@ export default function ArchivePage() {
                   </div>
                 </div>
                 <a className="source-link" href={item.url} target="_blank" rel="noreferrer">
-                  查看政府資料 <span aria-hidden="true">↗</span>
+                  {item.linkLabel} <span aria-hidden="true">↗</span>
                 </a>
               </article>
             ))}

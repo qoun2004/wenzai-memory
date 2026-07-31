@@ -232,6 +232,46 @@ export const legacyMediaItems = [
 
 export const publicReferenceItems = [
   {
+    date: "2020.09.23",
+    publisher: "城市學／遠見",
+    title: "全台最老嘉義縣的塭仔社區，她如何引人回「嘉」？",
+    summary:
+      "從吳淑芳長期參與農村學習、包車會議室、居民培力、跨社區串聯與50分工作室，整理塭仔如何把學習轉成地方行動。",
+    url: "https://city.gvm.com.tw/article/74741",
+    topics: ["學習型社區", "吳淑芳", "區域串聯"],
+    linkLabel: "閱讀城市學報導",
+  },
+  {
+    date: "2021.09.12",
+    publisher: "食農+",
+    title: "嘉義東石魚塭邊的二十年青春美夢",
+    summary:
+      "記錄社區居民、新住民、食農行動、生態廚房與地方團隊如何在長期累積中建立信心。",
+    url: "https://agrifoodplus.foodiedu.org/news/38",
+    topics: ["食農教育", "新住民", "社區培力"],
+    linkLabel: "閱讀食農+專文",
+  },
+  {
+    date: "2021.12.04",
+    publisher: "大享食育協會",
+    title: "在產地裡遇見東南亞：塭仔廣播劇與食育體驗",
+    summary:
+      "由大享食育協會與50分Life工作室合作，結合廣播劇、白蝦知識、生春捲與蚵仔包體驗。",
+    url: "https://www.foodiedu.org/news/1189",
+    topics: ["新住民文化", "白蝦", "食育體驗"],
+    linkLabel: "查看活動紀錄",
+  },
+  {
+    date: "日期待核",
+    publisher: "國立中正大學中正E報",
+    title: "塭仔的青春美夢：打造夢想未來",
+    summary:
+      "梳理社區廚房、大鼎灶、友善菜園、無障礙設施、親水平台與FOODTALK客廳的四期空間行動。",
+    url: "https://enews.ccu.edu.tw/p/404-1089-62694.php?Lang=zh-tw",
+    topics: ["公共空間", "共老", "青春美夢"],
+    linkLabel: "閱讀中正E報",
+  },
+  {
     date: "2023",
     publisher: "嘉義縣政府綜合規劃處",
     title: "112年施做點：塭仔社區空間改造",
@@ -239,5 +279,16 @@ export const publicReferenceItems = [
       "將傾頹閒置豬舍轉化為長者樂活學堂、社區客廳與旅外遊子返鄉空間的公開資料頁。",
     url: "https://rd.cyhg.gov.tw/cp.aspx?n=2421",
     topics: ["公共空間", "社區營造"],
+    linkLabel: "查看政府資料",
+  },
+  {
+    date: "2024",
+    publisher: "農業部農村發展及水土保持署",
+    title: "大專院校農村實踐共創：嘉鄉的豆味食餞",
+    summary:
+      "長庚科技大學團隊以塭仔青春美夢園地為場域，串連塭仔、洲仔、東崙與西崙等社區生活圈。",
+    url: "https://ruralup.ardswc.gov.tw/backend/media/announcement/brochure/113%E5%B9%B4%E5%BA%A6%E5%A4%A7%E5%B0%88%E9%99%A2%E6%A0%A1%E8%BE%B2%E6%9D%91%E5%AF%A6%E8%B8%90%E5%85%B1%E5%89%B5%E8%A8%88%E7%95%AB%E5%85%AC%E5%91%8A.pdf",
+    topics: ["黑豆", "大學協作", "農村實踐"],
+    linkLabel: "查看官方通過名單",
   },
 ];
