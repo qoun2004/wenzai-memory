@@ -11,12 +11,12 @@ export default function VisitPage() {
         eyebrow="來塭仔／預約體驗"
         title="先理解地方，再進入一場體驗"
         lead="未來可從摃梗、黑豆豆腐、聚落踏查、農漁產業與地方餐桌，組成90分鐘、半日或一日的塭仔體驗。"
-        note="正式場域、交通、費用、承載人數、保險與預約方式仍待協會確認，目前不開放線上收費。"
+        note="主要活動場域已確認為『塭仔的青春美夢』；交通、費用、承載人數、保險與預約方式仍待協會確認，目前不開放線上收費。"
       />
       <section className="section site-width">
         <div className="card-grid">
-          <InfoCard label="主要場域" title="塭仔的青春美夢" status="開放資訊待確認">
-            <p>成果活動預定場地，也是未來可能串接體驗、交流與地方餐桌的入口。</p>
+          <InfoCard label="主要場域" title="塭仔的青春美夢／FOODTALK客廳" status="本案活動場地">
+            <p>本案黑豆豆腐手作與成果展場地，也是居民共食、課程、接待、交流與地方餐桌的社區聚集點。</p>
           </InfoCard>
           <InfoCard label="體驗方向" title="摃梗、雜糧與黑豆豆腐" status="方案測試中">
             <p>依季節、材料、帶領者與參與對象組合，不把體驗簡化成只完成一件作品。</p>

@@ -28,7 +28,7 @@ export default function EducationPage() {
             <p>土地、季節、開花、結莢、採收與生產影像觀察紀錄。</p>
           </InfoCard>
           <InfoCard label="飲食加工" title="黑豆豆腐DIY" status="教案實作準備中">
-            <p>浸泡、磨漿、豆漿與豆渣同煮、攪拌、煮滾、凝固及食品衛生。</p>
+            <p>浸泡、磨漿、豆漿與豆渣同煮、攪拌、煮滾、凝固及食品衛生；本案手作活動安排於「塭仔的青春美夢」場域。</p>
           </InfoCard>
           <InfoCard label="地方故事" title="豆腐庄的記憶" status="訪談核對中">
             <p>從老店、家庭技術與停業原因，理解產業傳承與今天的體驗設計。</p>
@@ -36,6 +36,26 @@ export default function EducationPage() {
           <InfoCard label="教師與帶領者" title="學習單、材料表與安全提醒" status="待整合">
             <p>教師版說明、學生觀察單、帶領流程、過敏與工具風險。</p>
           </InfoCard>
+        </div>
+      </section>
+      <section className="section site-width">
+        <div className="prose-grid">
+          <aside>
+            <p className="eyebrow">實作場域</p>
+            <p>塭仔的青春美夢／FOODTALK客廳</p>
+          </aside>
+          <article>
+            <h2>教案放回社區真正使用的地方</h2>
+            <p>
+              社區廚房、大鼎灶、友善菜園與FOODTALK客廳，原本就是居民共食、
+              飲食課程、接待與交流的空間。本案的黑豆豆腐DIY在此進行，
+              能把豆腐製作、豆腐庄記憶與今天的社區生活連在一起。
+            </p>
+            <p>
+              未來教案除記錄材料與步驟，也會補上場地配置、用水用電、食品衛生、
+              帶領人數與長者參與方式，讓活動可以重複辦理。
+            </p>
+          </article>
         </div>
       </section>
       <section className="section section-tint">

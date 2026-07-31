@@ -54,6 +54,45 @@ export default function PlacePage() {
       <section className="section site-width">
         <div className="section-heading">
           <div>
+            <p className="eyebrow">社區行動基地</p>
+            <h2>從棧寮到「塭仔的青春美夢」</h2>
+          </div>
+          <p>
+            它不只是一處改造完成的建築，而是塭仔居民上課、共食、接待、
+            討論與一起做事的社區客廳，也是本案活動實際發生的地方。
+          </p>
+        </div>
+        <div className="timeline">
+          <div className="timeline-item">
+            <time>2019起</time>
+            <div><h3>整理舊稱「棧寮」的空間</h3><p>海區社規師、返鄉中壯年、社區長輩與志工共同動手，讓閒置土地重新成為公共空間。</p></div>
+          </div>
+          <div className="timeline-item">
+            <time>第一、二期</time>
+            <div><h3>社區廚房、大鼎灶與友善菜園</h3><p>以「吃」串起居民，並把戶外場域轉化為飲食教育、共食與交流的平台。</p></div>
+          </div>
+          <div className="timeline-item">
+            <time>第三、四期</time>
+            <div><h3>親水平台、同心圓廣場與FOODTALK客廳</h3><p>增加休憩、聚會、接待、簡易輕食與地方活動等多元使用方式。</p></div>
+          </div>
+          <div className="timeline-item">
+            <time>2026本案</time>
+            <div><h3>黑豆豆腐手作與專案成果展場地</h3><p>本案將在此進行黑豆豆腐DIY，並規劃紀錄片、歌謠、摃梗體驗及地方風味餐的成果展。</p></div>
+          </div>
+        </div>
+        <a
+          className="arrow-link"
+          href="https://enews.ccu.edu.tw/p/404-1089-62694.php?Lang=zh-tw"
+          target="_blank"
+          rel="noreferrer"
+        >
+          閱讀中正E報場域紀錄 <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+
+      <section className="section site-width">
+        <div className="section-heading">
+          <div>
             <p className="eyebrow">理解塭仔的三個入口</p>
             <h2>從產業、空間與記憶交叉閱讀</h2>
           </div>
