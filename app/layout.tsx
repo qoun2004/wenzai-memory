@@ -3,7 +3,13 @@ import Link from "next/link";
 import { navItems } from "./data";
 import "./globals.css";
 
+const siteUrl =
+  process.env.URL ??
+  process.env.DEPLOY_PRIME_URL ??
+  "https://wenzai-memory.qoun2004.chatgpt.site";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "塭仔｜土地、技藝與生活記憶",
     template: "%s｜塭仔",

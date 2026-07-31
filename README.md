@@ -1,4 +1,29 @@
-# vinext-starter
+# 塭仔｜土地、技藝與生活記憶
+
+塭仔社區長期地方記憶網站，收錄地方人物、社區行動、摃梗文化、
+食農教育、體驗活動與各類授權後的影音及文獻。
+
+## GitHub 與 Netlify 部署
+
+1. 在 GitHub 建立一個空白儲存庫，不要預先加入 README、授權或 `.gitignore`。
+2. 將本資料夾的完整內容推送到 GitHub `main` 分支。
+3. 進入 Netlify，選擇 **Add new project → Import an existing project**。
+4. 選擇 GitHub 與剛建立的儲存庫。
+5. Netlify 會讀取 `netlify.toml`，使用 `npm run build:netlify` 建置。
+6. 按下 Publish。之後每次推送到 `main`，Netlify 會自動更新網站。
+
+本專案需要 Node.js `22.13.0` 以上版本，不需要額外設定環境變數。
+
+## 本機檢查
+
+```bash
+npm install
+npm run build:netlify
+```
+
+---
+
+## Sites／Cloudflare 開發說明
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
