@@ -23,7 +23,7 @@ export default function ActionsPage() {
           </div>
           <div className="timeline-item">
             <time>歷年累積</time>
-            <div><h3>食農、小旅行與區域串聯</h3><p>協會長期連結在地小團隊與社區；正式名稱與成果資料將由協會補齊。</p></div>
+            <div><h3>大東石里海計畫：食農、小旅行與區域串聯</h3><p>協會長期連結在地小團隊與社區；夥伴、產品、體驗與正式成果資料將逐筆補齊。</p></div>
           </div>
           <div className="timeline-item">
             <time>2026.07</time>

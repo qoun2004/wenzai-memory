@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { InfoCard, PageHero, SourceNote } from "../components";
+import { ArrowLink, InfoCard, PageHero, SourceNote } from "../components";
 import { associationSources } from "../data";
 
 export const metadata: Metadata = {
@@ -61,7 +61,7 @@ export default function AboutPage() {
         </div>
         <div className="program-structure horizontal">
           <article className="program-level umbrella"><p className="program-index">長期主體</p><h3>嘉義縣鄉村永續發展協會</h3><p>維護組織沿革、區域關係、歷年成果與地方知識庫。</p></article>
-          <article className="program-level regional"><p className="program-index">持續行動</p><h3>食農・文化・環境・共老・地方體驗</h3><p>依計畫、聚落與合作關係逐步整理，不因單一年度結束而消失。</p></article>
+          <article className="program-level regional"><p className="program-index">區域架構</p><h3>大東石里海計畫</h3><p>串連海、田、聚落、生活產業與共好夥伴；產品、體驗、小旅行與服務將逐步補登。</p><ArrowLink href="/satoumi">查看區域架構</ArrowLink></article>
           <article className="program-level project"><p className="program-index">目前子計畫</p><h3>塭仔摃梗與鹽地雜糧記憶</h3><p>2026年由傳統農具、農村歌謠、黑豆食農與紀錄片展開。</p></article>
         </div>
       </section>

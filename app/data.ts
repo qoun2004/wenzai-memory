@@ -1,6 +1,7 @@
 export const navItems = [
   { label: "關於協會", href: "/about" },
-  { label: "區域與聚落", href: "/place" },
+  { label: "里海與夥伴", href: "/satoumi" },
+  { label: "塭仔聚落", href: "/place" },
   { label: "行動與計畫", href: "/actions" },
   { label: "食農教育", href: "/education" },
   { label: "地方典藏", href: "/archive" },

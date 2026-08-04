@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLink, SourceNote, StatusBadge } from "./components";
+import { ArrowLink, InfoCard, SourceNote, StatusBadge } from "./components";
 import {
   archivePreview,
   associationSources,
@@ -96,9 +96,9 @@ export default function Home() {
             <div className="program-connector" aria-hidden="true">↓</div>
             <article className="program-level regional">
               <p className="program-index">02｜區域行動</p>
-              <h3>大東石的聚落串連與共好</h3>
-              <p>從塭仔出發，連結栗子崙、洲仔及鄰近社區，累積食農、環境、共老與地方體驗。</p>
-              <ArrowLink href="/actions">看協會行動脈絡</ArrowLink>
+              <h3>大東石里海計畫</h3>
+              <p>把海、田、聚落、產業與生活關係串起來，累積共好夥伴、地方產品、體驗與小旅行。</p>
+              <ArrowLink href="/satoumi">查看里海計畫與夥伴</ArrowLink>
             </article>
             <div className="program-connector" aria-hidden="true">↓</div>
             <article className="program-level project">
@@ -113,6 +113,27 @@ export default function Home() {
             href={associationSources.regionalAction.url}
             prefix="區域串連參考"
           />
+        </div>
+      </section>
+
+      <section className="section site-width">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">大東石里海計畫</p>
+            <h2>第一批共好夥伴，其他名單持續補登</h2>
+          </div>
+          <ArrowLink href="/satoumi">進入夥伴與地方服務板塊</ArrowLink>
+        </div>
+        <div className="card-grid">
+          <InfoCard label="塭仔・東石" title="50分工作室" status="第一批資料已入庫">
+            <p>魚塭養殖、一夜干、地方產品，以及小旅行與體驗的在地串聯。</p>
+          </InfoCard>
+          <InfoCard label="掌潭村白水湖" title="白水湖蚵學家・長花姐" status="公開資料已確認">
+            <p>蚵田巡禮、牡蠣產業知識、串蚵與剖蚵等食漁體驗及在地產品。</p>
+          </InfoCard>
+          <InfoCard label="持續擴充" title="其他大東石共好夥伴" status="待補資料與確認">
+            <p>預留產品、體驗、小旅行、餐飲、導覽與團體服務欄位，依來源與合作關係逐筆上架。</p>
+          </InfoCard>
         </div>
       </section>
 
