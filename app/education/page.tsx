@@ -24,7 +24,7 @@ export default function EducationPage() {
           <InfoCard label="勞動體驗" title="摃梗手工脫粒" status="製作中">
             <p>辨識雜糧、理解脫粒原理、操作節奏與早年農村換工情境。</p>
           </InfoCard>
-          <InfoCard label="種植觀察" title="黑豆從田裡到採收" status="既有素材盤點中">
+          <InfoCard label="種植觀察" title="黑豆從田裡到採收" status="2023素材已入庫">
             <p>土地、季節、開花、結莢、採收與生產影像觀察紀錄。</p>
           </InfoCard>
           <InfoCard label="飲食加工" title="黑豆豆腐DIY" status="教案實作準備中">
@@ -36,6 +36,47 @@ export default function EducationPage() {
           <InfoCard label="教師與帶領者" title="學習單、材料表與安全提醒" status="待整合">
             <p>教師版說明、學生觀察單、帶領流程、過敏與工具風險。</p>
           </InfoCard>
+        </div>
+      </section>
+      <section className="section section-tint" id="black-bean-history">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">既有行動｜2023</p>
+              <h2>黑豆狂想曲：從社區說明走進田裡</h2>
+            </div>
+            <p>
+              新收到的歷史照片補上計畫如何與居民說明、由志工參與播種，
+              再走向成熟豆莢與採後整理。這批資料讓2026年的黑豆食農不再像從零開始，
+              而是接續社區已經做過的實踐。
+            </p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo field-photo-wide">
+              <img src="/history/black-bean-briefing-2023.jpg" alt="2023年塭仔社區黑豆狂想曲計畫說明現場，居民在社區教室參與活動" />
+              <figcaption>2023.09.28，黑豆狂想曲計畫在塭仔社區向居民說明；現場也以繪畫與互動方式引導長者參與。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/history/black-bean-sowing-2023.jpg" alt="社區帶領者與志工在田區說明並參與黑豆播種" />
+              <figcaption>依原始檔名，這批照片記錄國泰志工參與黑豆播種；確切日期、田區及參與單位全名待補。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/history/black-bean-field.jpg" alt="田間已成熟並結出深色豆莢的黑豆植株" />
+              <figcaption>成熟黑豆豆莢留下從種植走向採收的產業影像，可用於觀察作物生命週期。</figcaption>
+            </figure>
+            <figure className="field-photo field-photo-wide">
+              <img src="/history/black-bean-sorting.jpg" alt="塭仔長者在竹篩上整理採收後的黑豆" />
+              <figcaption>長者以竹篩整理黑豆，讓種植紀錄回到社區日常、勞動知識與後續加工。</figcaption>
+            </figure>
+          </div>
+          <div className="usability-grid">
+            <article><strong>社區導入</strong><p>計畫說明、長者參與與圖像表達，適合發展成地方記憶暖身活動。</p></article>
+            <article><strong>田間實作</strong><p>播種、田間觀察、結莢與採收，可整理成作物生命週期學習單。</p></article>
+            <article><strong>採後應用</strong><p>整理、保存、豆腐與料理，串起黑豆豆腐DIY及地方餐桌。</p></article>
+          </div>
+          <p className="material-credit">
+            影像年代：2023（計畫說明照片可見日期為2023.09.28；其餘依檔名與資料提供者標示）｜照片素材提供：吳淑芳｜人物姓名、完整活動資料與公開授權範圍持續補登。
+          </p>
         </div>
       </section>
       <section className="section site-width">

@@ -54,6 +54,35 @@ export default function GonggenProjectPage() {
           </article>
         </div>
       </section>
+      <section className="section site-width" id="gonggen-history">
+        <div className="section-heading archive-heading">
+          <div>
+            <p className="eyebrow">歷史影像新入庫</p>
+            <h2>摃梗保存並不是2026年才開始</h2>
+          </div>
+          <p>
+            淑芳姐提供的早期照片已出現居民與外來參與者實際操作摃梗。
+            它補上協會及社區過去曾推廣這件農具的視覺證據，也讓本案的「復刻」有了可以回看的前史。
+          </p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo">
+            <img src="/history/gonggen-early.jpg" alt="早期參與者在戶外操作摃梗農具" />
+            <figcaption>早期摃梗體驗影像；可看見長竹構件與操作姿勢，仍需由耆老確認工具部位、用法及示範是否正確。</figcaption>
+          </figure>
+          <article className="field-insight">
+            <p className="archive-type">這批資料帶來的意義</p>
+            <h3>從「曾經辦過」走向可追溯的地方歷史</h3>
+            <p>
+              照片可以與2026年的耆老訪談、梗達人製作及工作坊並置，
+              比較不同年代的工具形制、操作方式與參與者。下一步要補的是活動年份、地點、人物、拍攝者與當時使用的作物。
+            </p>
+          </article>
+        </div>
+        <p className="material-credit">
+          照片素材提供：吳淑芳｜拍攝年份與活動名稱待確認。現階段以「早期摃梗推廣／體驗影像」典藏，不推定確切年代。
+        </p>
+      </section>
       <section className="section site-width" id="songs">
         <div className="section-heading">
           <div><p className="eyebrow">聲音線索</p><h2>歌謠不是配樂，而是理解記憶的方法</h2></div>

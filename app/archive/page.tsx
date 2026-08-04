@@ -90,6 +90,37 @@ export default function ArchivePage() {
           </div>
         </div>
       </section>
+      <section className="section section-tint" id="community-history">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">第三批地方影像</p>
+              <h2>摃梗與黑豆狂想曲的前期累積</h2>
+            </div>
+            <p>
+              這批由吳淑芳提供的舊照片，證明摃梗體驗與黑豆種植在2026子計畫以前就曾發生。
+              網站先公開代表影像，完整原檔、人物、拍攝者與活動紀錄再逐筆補登。
+            </p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo field-photo-wide">
+              <img src="/history/gonggen-early.jpg" alt="早期參與者在塭仔戶外場地操作摃梗農具" />
+              <figcaption>早期摃梗操作與體驗影像。拍攝年份、活動名稱、人物與農具細節仍待淑芳姐及當事人確認。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/history/black-bean-briefing-2023.jpg" alt="2023年塭仔社區黑豆狂想曲計畫說明活動" />
+              <figcaption>2023.09.28黑豆狂想曲計畫說明，呈現社區如何向居民介紹並共同進入種植行動。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/history/black-bean-sorting.jpg" alt="塭仔長者使用竹篩整理黑豆" />
+              <figcaption>採後整理影像串起黑豆種植、長者勞動經驗與後續食農應用。</figcaption>
+            </figure>
+          </div>
+          <p className="material-credit">
+            資料提供：吳淑芳｜本批共18張照片、2份影片檔；兩份影片經檔案比對為同一支8.75秒直式影片。影片包含未成年參與者，公開同意未確認前暫不嵌入網站。
+          </p>
+        </div>
+      </section>
       <section className="section site-width">
         <div className="section-heading archive-heading">
           <div>
