@@ -65,8 +65,8 @@ export const archivePreview = [
     year: "2026",
     type: "田野紀錄",
     title: "摃梗、換工與鹽地雜糧人物訪談",
-    description: "預計十位受訪者；公開摘要、聲音與逐字稿將依同意範圍分級。",
-    status: "待訪談與授權",
+    description: "第一位耆老訪談已於8月6日完成；公開摘要、聲音與逐字稿將依同意範圍分級。",
+    status: "1／10位完成・授權待確認",
   },
   {
     year: "2026.07",

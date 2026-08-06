@@ -29,7 +29,7 @@ export default function GonggenProjectPage() {
       </section>
       <section className="section site-width">
         <div className="fact-strip">
-          <div className="fact"><strong>10位</strong><span>人物訪談規劃</span></div>
+          <div className="fact"><strong>1／10位</strong><span>人物訪談已完成</span></div>
           <div className="fact"><strong>5場</strong><span>歌謠工作坊</span></div>
           <div className="fact"><strong>1支</strong><span>五分鐘紀錄片</span></div>
           <div className="fact"><strong>2026.10.24</strong><span>成果活動</span></div>
@@ -82,6 +82,41 @@ export default function GonggenProjectPage() {
         <p className="material-credit">
           照片素材提供：吳淑芳｜拍攝年份與活動名稱待確認。現階段以「早期摃梗推廣／體驗影像」典藏，不推定確切年代。
         </p>
+      </section>
+      <section className="section section-tint" id="interview-20260806">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">第一位正式耆老訪談｜2026.08.06</p>
+              <h2>從養牛、換工到摃梗，唐榮先生帶回一段農村勞動記憶</h2>
+            </div>
+            <p>淑芳姐主訪，攝影端同步照看單眼主畫面、DJI備援畫面、手機錄音與現場照片。訪談內容正依錄音、筆記與影像交叉整理。</p>
+          </div>
+          <div className="field-gallery interview-gallery">
+            <figure className="field-photo field-photo-wide">
+              <img src="/field-notes/interview-20260806-main.jpg" alt="唐榮先生在家中接受塭仔摃梗紀錄片訪談" />
+              <figcaption>單眼主畫面記錄唐榮先生的表情與手勢；畫面將作為紀錄片第一部分「農村記憶與摃梗使用背景」的人物素材。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/field-notes/interview-20260806-wide.jpg" alt="唐榮先生、淑芳姐與在場長輩進行訪談的室內全景" />
+              <figcaption>DJI備援全景保留訪談互動、現場長輩與居家空間，也能看見多機同步記錄的配置。</figcaption>
+            </figure>
+            <article className="field-insight">
+              <p className="archive-type">目前整理出的四條內容線索</p>
+              <h3>一位受訪者，串起工具、作物、勞動與地方變遷</h3>
+              <p>現場筆記已記下買牛與農機、牛車耕作、摃梗脫粒、曬種與吹殼、換工與請工、婦女背著孩子工作，以及村落由農作走向溫室、造林與太陽能等線索。</p>
+              <p>作物名稱、價格、年代、牛隻數量與地方用語仍需逐段回聽，不把初步筆記直接視為完成考證的史實。</p>
+            </article>
+          </div>
+          <div className="usability-grid">
+            <article><strong>影像成果</strong><p>單眼主訪談、DJI全景備援、手機短畫面與現場照片，可交叉支撐人物訪談及拍攝過程紀錄。</p></article>
+            <article><strong>文字成果</strong><p>已建立人物生命史、摃梗使用、換工勞動及土地變化四類筆記，可納入三千字摃梗技藝總結報告。</p></article>
+            <article><strong>下一步</strong><p>確認特殊台語詞、作物、年代與數字，追查收購商、朴子五金行及牛舍等人物與場域，補拍老照片、動作與環境。</p></article>
+          </div>
+          <p className="material-credit">
+            訪談日期：2026.08.06｜受訪者：唐榮｜主訪：吳淑芳｜影像與錄音：黃建凱及現場團隊。書面訪談與肖像授權待補簽；現階段僅公開進度摘要與低解析畫面，原始錄音、完整回答及個人資料不直接公開。
+          </p>
+        </div>
       </section>
       <section className="section site-width" id="songs">
         <div className="section-heading">

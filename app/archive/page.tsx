@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { PageHero, StatusBadge } from "../components";
 import {
   archiveItems,
@@ -120,6 +121,29 @@ export default function ArchivePage() {
             資料提供：吳淑芳｜本批共21張照片、2份影片檔；兩份影片經檔案比對為同一支8.75秒直式影片。影片包含未成年參與者，公開同意未確認前暫不嵌入網站。
           </p>
         </div>
+      </section>
+      <section className="section site-width" id="first-formal-interview">
+        <div className="section-heading archive-heading">
+          <div>
+            <p className="eyebrow">第四批田野影像｜2026.08.06</p>
+            <h2>第一位正式耆老訪談完成</h2>
+          </div>
+          <p>唐榮先生的訪談留下摃梗使用、作物處理、換工、養牛與地方產業變化等線索；目前進入回聽、查證及授權整理。</p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo">
+            <img src="/field-notes/interview-20260806-main.jpg" alt="唐榮先生接受第一場正式耆老訪談" />
+            <figcaption>單眼主畫面截圖。完整訪談影像與聲音暫不公開，待內容核對與書面授權完成。</figcaption>
+          </figure>
+          <article className="field-insight">
+            <p className="archive-type">典藏狀態</p>
+            <h3>四種媒材已入庫，先保留脈絡再整理內容</h3>
+            <p>本次包含單眼錄影、DJI運動相機備援、手機錄音與現場影像。手機錄音約71分41秒，適合後續分段回聽；台語自動辨識只能作輔助，特殊詞與完整語意仍需人工確認。</p>
+            <StatusBadge status="內容整理中・授權待確認" />
+            <Link className="arrow-link" href="/projects/gonggen#interview-20260806">查看訪談成果與內容線索 <span aria-hidden="true">↗</span></Link>
+          </article>
+        </div>
+        <p className="material-credit">資料來源：2026.08.06訪談原始檔與現場紀錄｜整理日期：2026.08.07｜原始素材不提供下載。</p>
       </section>
       <section className="section site-width">
         <div className="section-heading archive-heading">
