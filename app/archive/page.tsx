@@ -122,10 +122,24 @@ export default function ArchivePage() {
           </p>
         </div>
       </section>
+      <section className="section section-tint" id="tofu-workshop-archive">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div><p className="eyebrow">第四批食農影像｜2026.07.21</p><h2>黑豆豆漿、豆腐DIY與社區客廳</h2></div>
+            <p>140支短片、約44分鐘，從戶外炊煮走到室內共同操作；可同時支援紀錄片、黑豆食農教案、豆腐庄故事及體驗流程整理。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo"><img src="/field-notes/tofu-workshop-20260721/elder.jpg" alt="在地豆腐第四代長輩於活動現場示範" /><figcaption>第四代長輩示範畫面；姓名、店家沿革與公開身分待補。</figcaption></figure>
+            <figure className="field-photo"><img src="/field-notes/tofu-workshop-20260721/finished.jpg" alt="黑豆豆腐DIY完成後的豆腐成品" /><figcaption>豆腐成品與模具操作，補上黑豆從作物走向加工與體驗的影像環節。</figcaption></figure>
+          </div>
+          <p className="material-credit">影像拍攝：黃建凱｜原始檔保留於專案素材庫；網站僅公開代表截圖。現場另一拍攝團隊屬不同專案，不列入本案製作團隊或成果數量。</p>
+          <Link className="arrow-link" href="/education#tofu-workshop-20260721">查看食農教育整理 <span aria-hidden="true">↗</span></Link>
+        </div>
+      </section>
       <section className="section site-width" id="first-formal-interview">
         <div className="section-heading archive-heading">
           <div>
-            <p className="eyebrow">第四批田野影像｜2026.08.06</p>
+            <p className="eyebrow">第五批田野影像｜2026.08.06</p>
             <h2>第一位正式耆老訪談完成</h2>
           </div>
           <p>唐榮先生的訪談留下摃梗使用、作物處理、換工、養牛與地方產業變化等線索；目前進入回聽、查證及授權整理。</p>

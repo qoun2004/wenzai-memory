@@ -54,6 +54,19 @@ export default function GonggenProjectPage() {
           </article>
         </div>
       </section>
+      <section className="section site-width" id="black-bean-film-material">
+        <div className="section-heading archive-heading">
+          <div><p className="eyebrow">紀錄片前期影像｜2026.07.21</p><h2>黑豆食農不是旁支，而是本案連向今天生活的第二條故事線</h2></div>
+          <p>第一批臨場拍攝雖未依正式腳本準備，仍記下社區客廳、豆腐第四代長輩、陳鈺益、黑豆豆漿炊煮與居民DIY，可在紀錄片中承接豆腐庄歷史與當代體驗。</p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo">
+            <img src="/field-notes/tofu-workshop-20260721/stirring.jpg" alt="黑豆豆漿製作過程中的持續攪拌" />
+            <figcaption>製程動作與鍋內聲音能為紀錄片提供具體的勞動節奏。</figcaption>
+          </figure>
+          <article className="field-insight"><p className="archive-type">成片使用方向</p><h3>從老產業記憶，切到今天仍能親手參與的技術</h3><p>可搭配豆腐庄耆老訪談、老照片與黑豆種植影像，再接到炊煮、模具、居民操作和成品。後續正式補拍材料比例、關鍵步驟與完整示範，這批則保留第一次進入現場的真實氣氛。</p><Link className="arrow-link" href="/education#tofu-workshop-20260721">查看完整活動影像與食農用途 <span aria-hidden="true">↗</span></Link></article>
+        </div>
+      </section>
       <section className="section site-width" id="gonggen-history">
         <div className="section-heading archive-heading">
           <div>
