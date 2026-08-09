@@ -159,6 +159,18 @@ export default function ArchivePage() {
         </div>
         <p className="material-credit">資料來源：2026.08.06訪談原始檔與現場紀錄｜整理日期：2026.08.07｜原始素材不提供下載。</p>
       </section>
+      <section className="section site-width" id="cai-tong-bin-archive">
+        <div className="section-heading archive-heading">
+          <div><p className="eyebrow">第六批田野影像｜2026.08.09</p><h2>蔡通彬：摃梗材料、製作行動與東崙黑豆</h2></div>
+          <p>淑芳姐於東崙拍攝的3分19秒台語口述，已建立原始影片、Breeze ASR辨識初稿、時碼與代表截圖。</p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo"><img src="/field-notes/interview-20260809-cai/conversation.jpg" alt="蔡通彬與吳淑芳進行台語口述記錄" /><figcaption>原始畫面採固定廣角，可作為人物線索與後續實作跟拍的前導。</figcaption></figure>
+          <figure className="field-photo"><img src="/field-notes/interview-20260809-cai/black-bean.jpg" alt="蔡通彬談東崙黑豆種植經驗" /><figcaption>口述後段談到黑豆、降雨、種子腐壞發霉與發芽不良等田間問題。</figcaption></figure>
+          <article className="field-insight"><p className="archive-type">典藏狀態</p><h3>技藝線索已入庫，角色、台語細節與授權仍待確認</h3><p>目前先定位為「摃梗實作／製作技藝重要知情者或梗達人候選」，不將AI辨識結果直接當成完成考證的史料。</p><StatusBadge status="內容已索引・角色與授權待確認" /><Link className="arrow-link" href="/people#cai-tong-bin">查看人物與追訪方向 <span aria-hidden="true">↗</span></Link></article>
+        </div>
+        <p className="material-credit">原始影像與資料提供：吳淑芳｜人物：蔡通彬｜拍攝時間：2026.08.09 13:29（依原始檔案時間）｜完整影片待受訪授權確認，目前不嵌入公開網站。</p>
+      </section>
       <section className="section site-width">
         <div className="section-heading archive-heading">
           <div>

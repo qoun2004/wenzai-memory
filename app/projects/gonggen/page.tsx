@@ -29,7 +29,7 @@ export default function GonggenProjectPage() {
       </section>
       <section className="section site-width">
         <div className="fact-strip">
-          <div className="fact"><strong>1／10位</strong><span>人物訪談已完成</span></div>
+          <div className="fact"><strong>1＋1</strong><span>正式訪談＋技藝線索</span></div>
           <div className="fact"><strong>5場</strong><span>歌謠工作坊</span></div>
           <div className="fact"><strong>1支</strong><span>五分鐘紀錄片</span></div>
           <div className="fact"><strong>2026.10.24</strong><span>成果活動</span></div>
@@ -95,6 +95,24 @@ export default function GonggenProjectPage() {
         <p className="material-credit">
           照片素材提供：吳淑芳｜拍攝年份與活動名稱待確認。現階段以「早期摃梗推廣／體驗影像」典藏，不推定確切年代。
         </p>
+      </section>
+      <section className="section section-tint" id="cai-tong-bin-20260809">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div><p className="eyebrow">梗達人候選／製作線索｜2026.08.09</p><h2>蔡通彬談的不只是「以前怎麼用」，而是材料去哪裡找、怎麼判斷能不能做</h2></div>
+            <p>這段口述對紀錄片最重要的價值，是它指向一個可以立刻行動的下一步：跟著蔡通彬找材料、帶工具，並完整記錄一件摃梗從判斷到製作的過程。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo"><img src="/field-notes/interview-20260809-cai/gesture.jpg" alt="蔡通彬以手勢說明摃梗材料與製作方式" /><figcaption>現場手勢是技藝記憶的一部分；下次應補拍手部特寫、工具、材料細節與實際動作。</figcaption></figure>
+            <article className="field-insight"><p className="archive-type">初步內容判讀</p><h3>彈性、鐵鎚、拉取與日曬裂損，是四個可追問的製作關鍵詞</h3><p>台語辨識初稿中，蔡通彬比較材料是否容易破裂、提到用鐵鎚敲與拉取，也說到材料曬太陽後裂開便不能使用。這些內容應透過實物與實作再確認，並整理成摃梗教案的選材與保存段落。</p></article>
+          </div>
+          <div className="usability-grid">
+            <article><strong>紀錄片</strong><p>拍一條完整行動線：指認材料→採集→選別→處理→製作→試用，讓口述與動作互相驗證。</p></article>
+            <article><strong>追訪線索</strong><p>影片還提及另一位可能知情的地方人物；姓名與身分未核對前，先作內部追訪索引。</p></article>
+            <article><strong>黑豆支線</strong><p>後段有東崙黑豆種植、水分、種子腐敗與降雨的經驗，可補足鹽地雜糧的生產現場。</p></article>
+          </div>
+          <p className="material-credit">人物：蔡通彬（東崙農事小組長）｜「梗達人／摃梗製作者」角色待本人與吳淑芳確認｜主訪、拍攝與影像提供：吳淑芳｜影片長度約3分19秒。內容為AI辨識後的初步摘要，台語特殊詞、人名與技術細節需人工回聽及當事人確認。</p>
+        </div>
       </section>
       <section className="section section-tint" id="interview-20260806">
         <div className="site-width">
