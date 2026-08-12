@@ -114,6 +114,44 @@ export default function GonggenProjectPage() {
           <p className="material-credit">人物：蔡通彬（東崙農事小組長）｜「梗達人／摃梗製作者」角色待本人與吳淑芳確認｜主訪、拍攝與影像提供：吳淑芳｜影片長度約3分19秒。內容為AI辨識後的初步摘要，台語特殊詞、人名與技術細節需人工回聽及當事人確認。</p>
         </div>
       </section>
+      <section className="section site-width" id="bamboo-survey-20260812">
+        <div className="section-heading archive-heading">
+          <div>
+            <p className="eyebrow">田野紀錄｜2026.08.12</p>
+            <h2>採竹延期之後，先把路、人與材料找出來</h2>
+          </div>
+          <p>原定與梗達人及工作人員採集刺竹，因凌晨降雨、地面濕滑而延期。團隊仍前往溪下村一帶勘查竹叢、進出路線與搬運條件；這次沒有正式砍竹，卻補上復刻摃梗之前不可少的材料、安全與人物線索。</p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo field-photo-wide">
+            <img src="/field-notes/bamboo-survey-20260812/bamboo-overview.jpg" alt="2026年8月12日摃梗復刻前期調查所見的刺竹叢" />
+            <figcaption>先確認竹叢位置、道路寬度、地面狀況與可能的搬運動線；雨後現場濕滑，因此未進行正式採集。</figcaption>
+          </figure>
+          <figure className="field-photo">
+            <img src="/field-notes/bamboo-survey-20260812/bamboo-material.jpg" alt="田調團隊在竹叢旁檢視既有竹材與材料狀態" />
+            <figcaption>現場以既有切段比對直徑、厚度與重量；竹種、竹齡、乾燥時間及可用長度仍須由梗達人實作確認。</figcaption>
+          </figure>
+          <article className="field-insight">
+            <p className="archive-type">這次田調的意外收穫</p>
+            <h3>找竹子的路，也是一條找到地方知情者的路</h3>
+            <p>帶路者柳婉玲居住溪下村、港口宮周邊，具芝麻種植、學校教學與地方田調經驗。她協助連起父親、附近長輩與小農，也讓團隊遇見柳水鴨及另一位熟悉農具構造的地方知情者。</p>
+            <p>人物正面影像已整理於原始素材庫；待完成肖像與訪談公開同意後，再補入網站。</p>
+          </article>
+        </div>
+        <div className="usability-grid">
+          <article><strong>材料與路線</strong><p>確認竹叢、入口與搬運條件；下次需由梗達人判斷竹種、成熟度、直徑、節距與實際可用段。</p></article>
+          <article><strong>人物與口述</strong><p>柳水鴨回憶童年曾看過多人操作摃梗；另一位知情者提到長柄竹材、短柄木材、鑿孔與早期固定方式，均列為複訪線索。</p></article>
+          <article><strong>紀錄片敘事</strong><p>「雨後延期採竹，團隊仍進場勘查，並在找材料時找到人與記憶」可成為復刻段落的自然前導。</p></article>
+        </div>
+        <div className="prose-grid field-followup">
+          <aside><p className="eyebrow">正式採集前</p><h3>安全與器材清單</h3></aside>
+          <article>
+            <p>手套、刀具或鋸具、雨鞋、長袖衣褲、帽子或頭部防護、護目鏡；另備貨車、繩索與束帶、防水布、簡易量測工具及急救用品。濕滑時不進場，並先劃定切割、傾倒與搬運區域，安排一人專責警戒。</p>
+            <p><strong>下一步：</strong>另約乾燥天候，連續拍攝選竹、採集、搬運、乾燥、製作與試用；正式複訪柳水鴨、柳婉玲及農具構造知情者，配合舊物、圖畫或實作逐項核對。</p>
+          </article>
+        </div>
+        <p className="material-credit">拍攝日期：2026.08.12｜地點：嘉義縣東石鄉溪下村周邊｜田野協力：柳婉玲、吳淑芳及在地知情者｜影像：黃建凱與現場手機紀錄｜素材盤點：39段影片、17張照片，影片總長約35分鐘。本頁為資源調查與路線勘查紀錄，非正式採竹；口述摘要待複訪、授權與台語內容核對。</p>
+      </section>
       <section className="section section-tint" id="interview-20260806">
         <div className="site-width">
           <div className="section-heading archive-heading">

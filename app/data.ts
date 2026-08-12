@@ -81,6 +81,13 @@ export const archivePreview = [
 export const archiveItems = [
   ...archivePreview.slice(1),
   {
+    year: "2026.08.12",
+    type: "田野紀錄",
+    title: "摃梗復刻前期：刺竹資源調查與採集路線勘查",
+    description: "因雨延期採竹，轉為現地勘查，新增刺竹、柳婉玲、柳水鴨與農具構造等追訪線索。",
+    status: "第一批圖文已整理",
+  },
+  {
     year: "歷年",
     type: "文件／新聞",
     title: "協會計畫、成果冊與新聞資料",

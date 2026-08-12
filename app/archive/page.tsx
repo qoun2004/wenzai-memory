@@ -171,6 +171,19 @@ export default function ArchivePage() {
         </div>
         <p className="material-credit">原始影像與資料提供：吳淑芳｜人物：蔡通彬｜拍攝時間：2026.08.09 13:29（依原始檔案時間）｜完整影片待受訪授權確認，目前不嵌入公開網站。</p>
       </section>
+      <section className="section section-tint" id="bamboo-survey-archive">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div><p className="eyebrow">第七批田野影像｜2026.08.12</p><h2>刺竹資源調查與採集路線勘查</h2></div>
+            <p>採竹因雨延期後，團隊改做現地勘查，留下竹材、道路、安全準備與地方知情者等後續復刻線索。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo"><img src="/field-notes/bamboo-survey-20260812/bamboo-overview.jpg" alt="摃梗復刻前期刺竹資源調查現場" /><figcaption>刺竹叢與進場環境已建立第一批影像索引。</figcaption></figure>
+            <article className="field-insight"><p className="archive-type">典藏狀態</p><h3>39段影片與17張照片已盤點</h3><p>本批影片總長約35分鐘。網站先公開不涉及人物肖像的代表截圖與田調摘要；柳婉玲、柳水鴨及其他知情者的完整畫面留存在原始素材庫，待同意後再選段。</p><StatusBadge status="圖文已整理・人物影像待授權" /><Link className="arrow-link" href="/projects/gonggen#bamboo-survey-20260812">查看完整田調紀錄 <span aria-hidden="true">↗</span></Link></article>
+          </div>
+          <p className="material-credit">資料來源：2026.08.12手機與相機原始檔｜整理範圍：刺竹環境、材料判斷、採集準備、柳婉玲地方協同及柳水鴨口述線索。</p>
+        </div>
+      </section>
       <section className="section site-width">
         <div className="section-heading archive-heading">
           <div>
