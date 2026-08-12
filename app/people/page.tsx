@@ -6,6 +6,151 @@ export const metadata: Metadata = {
   title: "人與地方產業",
 };
 
+type MapPerson = {
+  name: string;
+  role: string;
+  relation: string;
+  initials: string;
+  image?: string;
+  imagePosition?: string;
+  status?: string;
+};
+
+const mapClusters: Array<{
+  key: string;
+  place: string;
+  note: string;
+  people: MapPerson[];
+}> = [
+  {
+    key: "wenzai",
+    place: "塭仔",
+    note: "本期摃梗子計畫核心聚落",
+    people: [
+      {
+        name: "吳淑芳",
+        role: "地方工作者／計畫連結者",
+        relation: "協會、口述訪談、黑豆與地方網絡",
+        initials: "芳",
+        image: "/field-notes/interview-20260809-cai/conversation.jpg",
+        imagePosition: "76% 48%",
+      },
+      {
+        name: "林文達",
+        role: "協會理事長",
+        relation: "協會治理與大東石里海願景",
+        initials: "林",
+        status: "人物資料待補",
+      },
+      {
+        name: "唐榮",
+        role: "地方耆老／首位正式訪談",
+        relation: "摃梗、換工與農村生活記憶",
+        initials: "唐",
+        image: "/field-notes/interview-20260806-main.jpg",
+        imagePosition: "53% 32%",
+      },
+    ],
+  },
+  {
+    key: "donglun",
+    place: "東崙",
+    note: "材料與農事技藝線索",
+    people: [
+      {
+        name: "蔡通彬",
+        role: "東崙農事小組長／梗達人線索",
+        relation: "選材、製作、操作與黑豆農事",
+        initials: "蔡",
+        image: "/field-notes/interview-20260809-cai/gesture.jpg",
+        imagePosition: "27% 38%",
+      },
+    ],
+  },
+  {
+    key: "xilun",
+    place: "西崙",
+    note: "村落治理與地方記憶",
+    people: [
+      {
+        name: "唐容",
+        role: "前村長",
+        relation: "聚落背景與人物引介",
+        initials: "容",
+        status: "待正式約訪",
+      },
+      {
+        name: "唐啟泰",
+        role: "現任村長",
+        relation: "地方現況與村落連結",
+        initials: "泰",
+        status: "待正式約訪",
+      },
+    ],
+  },
+  {
+    key: "zhongzhou",
+    place: "中洲",
+    note: "雜糧產銷與產業網絡",
+    people: [
+      {
+        name: "王文海",
+        role: "雜糧產銷班長",
+        relation: "鹽地雜糧、產銷與農業背景",
+        initials: "王",
+        status: "待正式約訪",
+      },
+    ],
+  },
+  {
+    key: "xiaxi",
+    place: "溪下村・港口宮周邊",
+    note: "大東石北側的在地協同網絡",
+    people: [
+      {
+        name: "柳婉玲",
+        role: "在地協同者／刺竹帶路",
+        relation: "田調、食農、芝麻種植與地方引介",
+        initials: "玲",
+        status: "不屬塭仔核心區・納入大東石關係網",
+      },
+      {
+        name: "柳水鴨",
+        role: "地方耆老／摃梗記憶線索",
+        relation: "童年見聞、操作方式與農村生活史",
+        initials: "柳",
+        status: "正式訪談與公開授權待確認",
+      },
+    ],
+  },
+];
+
+function PersonMarker({ person }: { person: MapPerson }) {
+  return (
+    <details className="map-person">
+      <summary aria-label={`查看${person.name}的人物資料`}>
+        <span className="map-avatar">
+          {person.image ? (
+            <img
+              src={person.image}
+              alt=""
+              style={{ objectPosition: person.imagePosition }}
+            />
+          ) : (
+            <span aria-hidden="true">{person.initials}</span>
+          )}
+        </span>
+        <strong>{person.name}</strong>
+      </summary>
+      <div className="map-person-card">
+        <p>{person.role}</p>
+        <span>{person.relation}</span>
+        {person.status && <small>{person.status}</small>}
+      </div>
+    </details>
+  );
+}
+
 export default function PeoplePage() {
   return (
     <>
@@ -15,6 +160,50 @@ export default function PeoplePage() {
         lead="長者記得工具怎麼用，婦女把地方食材做成可以帶走的產品，青年重新設計體驗，社區工作者把不同聚落與團隊連在一起。"
         note="人物姓名、店家名稱與口述內容，待本人同意及資料核對後逐步公開。"
       />
+      <section className="section site-width" id="people-map">
+        <div className="section-heading">
+          <div>
+            <p className="eyebrow">大東石地方引路人地圖</p>
+            <h2>先知道人在哪裡，再看見知識如何流動</h2>
+          </div>
+          <p>這是一張工作用的相對位置示意圖，不代表精確座標。點選人物可查看角色、專長及與本期計畫的關係。</p>
+        </div>
+        <div className="people-map-shell">
+          <div className="people-map-legend" aria-label="人物地圖圖例">
+            <span><i className="legend-dot photo" />已有影像</span>
+            <span><i className="legend-dot pending" />照片或授權待補</span>
+            <span><i className="legend-line" />人物與主題關聯</span>
+            <em>內部預覽・村落層級</em>
+          </div>
+          <div className="people-map" role="img" aria-label="東石地區聚落與地方關係人的相對位置示意圖">
+            <div className="map-sea" aria-hidden="true"><span>臺灣海峽</span></div>
+            <div className="map-river river-north" aria-hidden="true"><span>北港溪</span></div>
+            <div className="map-river river-puzi" aria-hidden="true"><span>朴子溪</span></div>
+            <div className="map-road road-168" aria-hidden="true"><span>168</span></div>
+            <div className="map-road road-17" aria-hidden="true"><span>台17</span></div>
+            <span className="map-place-label label-dongshi">東石鄉</span>
+            <span className="map-place-label label-puzi">往朴子</span>
+            <span className="map-landmark label-gangkou">港口宮周邊</span>
+            <span className="map-landmark label-harbor">東石漁港</span>
+            <div className="map-topic topic-gonggen"><span>本期主題</span><strong>摃梗 × 鹽地雜糧</strong><small>口述・復刻・食農</small></div>
+            <div className="map-relation relation-wenzai" aria-hidden="true" />
+            <div className="map-relation relation-donglun" aria-hidden="true" />
+            <div className="map-relation relation-xiaxi" aria-hidden="true" />
+            {mapClusters.map((cluster) => (
+              <section className={`map-cluster cluster-${cluster.key}`} key={cluster.key} aria-label={`${cluster.place}人物`}>
+                <header><strong>{cluster.place}</strong><span>{cluster.note}</span></header>
+                <div className="map-people-stack">
+                  {cluster.people.map((person) => <PersonMarker key={person.name} person={person} />)}
+                </div>
+              </section>
+            ))}
+          </div>
+          <div className="people-map-notes">
+            <p><strong>為什麼納入柳婉玲？</strong>她雖不在塭仔核心區，仍具刺竹帶路、田調、食農與地方引介能力，是跨聚落協作的重要在地協同者。</p>
+            <p><strong>姓名更正：</strong>2026年8月12日遇見的柳姓長輩確認為柳水鴨；現階段保留為摃梗記憶線索，正式訪談與公開範圍仍待確認。</p>
+          </div>
+        </div>
+      </section>
       <section className="section site-width">
         <div className="section-heading">
           <div>

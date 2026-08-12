@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   },
   description:
     "整理嘉義東石地區的居民行動、地方文化、食農教育與長期社區成果。",
+  robots: {
+    index: false,
+    follow: false,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -38,6 +47,10 @@ export const metadata: Metadata = {
 function SiteHeader() {
   return (
     <header className="site-header">
+      <div className="preview-ribbon">
+        <span>內部預覽版</span>
+        <p>供協會、計畫人員與輔導單位檢視；內容仍在核對與授權整理中</p>
+      </div>
       <div className="site-width header-inner">
         <Link className="brand" href="/" aria-label="回到嘉義縣鄉村永續發展協會網站首頁">
           <span className="brand-mark">鄉</span>
