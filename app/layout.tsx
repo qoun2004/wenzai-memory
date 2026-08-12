@@ -98,6 +98,7 @@ function SiteFooter() {
           <h2>協會平台</h2>
           <Link href="/about">關於協會</Link>
           <Link href="/satoumi">大東石里海計畫</Link>
+          <Link href="/people#people-map">地方引路人地圖</Link>
           <Link href="/actions">行動與計畫</Link>
           <Link href="/archive">地方知識庫</Link>
         </div>
