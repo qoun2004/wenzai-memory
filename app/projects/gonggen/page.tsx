@@ -96,6 +96,39 @@ export default function GonggenProjectPage() {
           照片素材提供：吳淑芳｜拍攝年份與活動名稱待確認。現階段以「早期摃梗推廣／體驗影像」典藏，不推定確切年代。
         </p>
       </section>
+      <section className="section section-tint" id="gonggen-memory-and-prototype-20260817">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">地方記憶 × 復刻測試｜2026.08.17整理</p>
+              <h2>從黃麻、縣運推廣，到一件摃梗的現場試打</h2>
+            </div>
+            <p>新的口述補充讓計畫多出一條重要線索：摃梗不是孤立的農具，而是與纖維作物、農會、公共活動和今日重新製作的技術調整連在一起。</p>
+          </div>
+          <div className="usability-grid">
+            <article>
+              <strong>黃麻的農村產業記憶</strong>
+              <p>陳忠和伯回憶，過去農會曾收購黃麻麻絲；脫皮、取絲後留下的梗，農民可帶回作為柴薪使用，但沒有額外工錢。這條線索可延伸追問黃麻的栽培地、收購流程與殘梗利用。</p>
+            </article>
+            <article>
+              <strong>民國86年嘉義縣縣運的早期推廣</strong>
+              <p>吳淑芳回憶，當時她服務於農會，因應各鄉鎮呈現地方特色的活動，規劃以摃梗、抓泥鰍等內容代表東石。那次不是以紀錄片方式保存，卻是她後續持續關注地方事務與摃梗記憶的重要起點。</p>
+            </article>
+            <article>
+              <strong>復刻不能只做「像」</strong>
+              <p>近期由梗達人林瑞彬製作的摃梗，已請陳忠和伯試打。他指出長、短竹片之間的木製連結段偏短，讓短邊竹片翻轉時容易卡住；此意見已列入下一版調整與實作驗證。</p>
+            </article>
+          </div>
+          <div className="prose-grid field-followup">
+            <aside><p className="eyebrow">下一次實作拍攝</p><h3>把「不好用」記下來，才是真的傳承</h3></aside>
+            <article>
+              <p>下一件復刻品應保留前後版本，量測連結段長度與竹片活動角度，並由至少兩位熟悉農事的長者試打、口述差異。拍攝重點包括：敲擊、翻轉、卡住的位置、手勢、聲音與調整後的比較。</p>
+              <p><strong>複訪線索：</strong>陳忠和伯提到蔡通彬或其他耆老可能仍能提供使用與製作細節。後續將先確認對象、拜訪意願與公開範圍，再列入正式訪談或實作見證。</p>
+            </article>
+          </div>
+          <p className="material-credit">資料來源：2026.08.17陳忠和口述、吳淑芳補充說明與現場試打紀錄｜黃麻收購、民國86年活動名稱、參與者與摃梗構造尺寸，均列為待查證資料；網站目前公開的是來源明確的田野摘要，不作完成考證的歷史定論。</p>
+        </div>
+      </section>
       <section className="section section-tint" id="cai-tong-bin-20260809">
         <div className="site-width">
           <div className="section-heading archive-heading">
