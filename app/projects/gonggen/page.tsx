@@ -29,7 +29,7 @@ export default function GonggenProjectPage() {
       </section>
       <section className="section site-width">
         <div className="fact-strip">
-          <div className="fact"><strong>1＋1</strong><span>正式訪談＋技藝線索</span></div>
+          <div className="fact"><strong>2＋1</strong><span>正式訪談＋技藝線索</span></div>
           <div className="fact"><strong>5場</strong><span>歌謠工作坊</span></div>
           <div className="fact"><strong>1支</strong><span>五分鐘紀錄片</span></div>
           <div className="fact"><strong>2026.10.24</strong><span>成果活動</span></div>
@@ -151,6 +151,45 @@ export default function GonggenProjectPage() {
           </article>
         </div>
         <p className="material-credit">拍攝日期：2026.08.12｜地點：嘉義縣東石鄉溪下村周邊｜田野協力：柳婉玲、吳淑芳及在地知情者｜影像：黃建凱與現場手機紀錄｜素材盤點：39段影片、17張照片，影片總長約35分鐘。本頁為資源調查與路線勘查紀錄，非正式採竹；口述摘要待複訪、授權與台語內容核對。</p>
+      </section>
+      <section className="section section-tint" id="interview-20260817-chen">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">第二位正式耆老訪談｜2026.08.17</p>
+              <h2>陳忠和伯：從廟口雜貨店，看見摃梗以外的整座村庄</h2>
+            </div>
+            <p>79歲、長居塭仔的陳忠和伯，童年便看過摃梗的勞動場景。他並非操作技藝者，卻保存了誰在做、什麼時候做，以及農作、賒帳、廟口與看戲如何交織的生活記憶。</p>
+          </div>
+          <div className="field-gallery interview-gallery">
+            <figure className="field-photo field-photo-wide">
+              <img src="/field-notes/interview-20260817-chen/conversation.jpg" alt="吳淑芳與陳忠和伯在塭仔家中進行訪談" />
+              <figcaption>陳忠和伯在家中接受訪談；老雜貨店的生活空間本身，也是地方經濟與日常記憶的一部分。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/field-notes/interview-20260817-chen/diary-notes.jpg" alt="陳忠和伯身旁放著長年記錄的日記與筆記" />
+              <figcaption>他提到長年保有寫日記的習慣；若本人及家屬同意，未來可從中挑選不涉隱私的頁面，作為地方生活史的補充史料。</figcaption>
+            </figure>
+            <article className="field-insight">
+              <p className="archive-type">口述定位</p>
+              <h3>不是只問一件工具，而是把工具放回它原來的生活系統</h3>
+              <p>他回憶摃梗多由女性操作、男性負責收攏與搬運；豆類多在稻米、甘蔗與番薯等主要作物的空檔種植。這讓摃梗的保存，不只停在農具形制，也能呈現勞動分工與作物輪作的背景。</p>
+            </article>
+          </div>
+          <div className="usability-grid">
+            <article><strong>摃梗與農事</strong><p>童年已見摃梗；女性多負責操作，男性多收、扛或搬運。豆類屬作物空檔的補充栽培，需再以其他耆老口述交叉核對。</p></article>
+            <article><strong>雜貨店與帳簿</strong><p>家中雜貨店經營約七十年，每戶一本簿子，農民多待收成後結帳；這是理解農村信用、收成與日常消費的重要線索。</p></article>
+            <article><strong>廟口與村庄生活</strong><p>初一、十六加菜、過年看戲與廟口表演，是他最鮮明的生活記憶；「王祿仔」等名稱與故事將在回聽後再確認。</p></article>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo">
+              <img src="/field-notes/interview-20260817-chen/interaction.jpg" alt="吳淑芳與陳忠和伯在訪談中互動並確認資料" />
+              <figcaption>訪談中以現場筆記與物件協助追問；後續將補做名詞、讀音、年代與家族資料的核對。</figcaption>
+            </figure>
+            <article className="field-insight"><p className="archive-type">下一步追訪</p><h3>把日記、帳簿與廟口位置變成可被閱讀的地方史料</h3><p>建議另約短時間補拍老日記或帳簿翻頁、雜貨店門口、店內舊物與廟口位置；內容僅在本人與家屬同意的範圍內整理與公開。</p></article>
+          </div>
+          <p className="material-credit">訪談日期：2026.08.17｜受訪者：陳忠和（79歲，塭仔人）｜主訪：吳淑芳｜現場紀錄、影像與錄音：黃建凱及現場團隊。已盤點手機錄音約43分鐘、單眼主畫面約32分鐘、DJI備援約36分鐘、手機短影片及現場照片；完整內容、日記與原始影音不提供下載，待書面授權與台語名詞核對後再選段公開。</p>
+        </div>
       </section>
       <section className="section section-tint" id="interview-20260806">
         <div className="site-width">

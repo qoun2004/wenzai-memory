@@ -136,6 +136,19 @@ export default function ArchivePage() {
           <Link className="arrow-link" href="/education#tofu-workshop-20260721">查看食農教育整理 <span aria-hidden="true">↗</span></Link>
         </div>
       </section>
+      <section className="section section-tint" id="chen-zhonghe-archive">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div><p className="eyebrow">第八批田野影像｜2026.08.17</p><h2>陳忠和伯：廟口雜貨店、帳簿與摃梗的村庄記憶</h2></div>
+            <p>第二位正式耆老訪談完成。本批以摃梗的勞動分工為入口，延伸到作物輪作、農村賒帳、養殖、糖業、廟口看戲與長年日記。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo"><img src="/field-notes/interview-20260817-chen/conversation.jpg" alt="陳忠和伯在家中接受塭仔地方記憶訪談" /><figcaption>原始單眼、DJI與手機錄音同步保留；網站僅公開授權整理中的代表照片與摘要。</figcaption></figure>
+            <article className="field-insight"><p className="archive-type">典藏狀態</p><h3>四種媒材已入庫，先建立口述與物件的關係</h3><p>手機錄音約43分鐘；單眼主畫面約32分鐘、DJI備援約36分鐘。另有雜貨店空間、日記筆記與現場互動照片，可支援紀錄片、三千字技藝報告與後續地方知識庫。</p><StatusBadge status="內容已索引・授權與名詞核對中" /><Link className="arrow-link" href="/projects/gonggen#interview-20260817-chen">查看訪談成果與內容線索 <span aria-hidden="true">↗</span></Link></article>
+          </div>
+          <p className="material-credit">資料來源：2026.08.17陳忠和訪談原始檔、現場筆記與照片｜整理日期：2026.08.17｜「摃梗」讀音、地方名詞、作物與年代仍待人工回聽及在地核對；日記與帳簿不公開原件。</p>
+        </div>
+      </section>
       <section className="section site-width" id="first-formal-interview">
         <div className="section-heading archive-heading">
           <div>

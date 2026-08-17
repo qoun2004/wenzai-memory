@@ -50,6 +50,15 @@ const mapClusters: Array<{
         image: "/field-notes/interview-20260806-main.jpg",
         imagePosition: "53% 32%",
       },
+      {
+        name: "陳忠和",
+        role: "地方耆老／廟口雜貨店記憶",
+        relation: "摃梗勞動分工、農事輪作、賒帳帳簿與廟口生活",
+        initials: "陳",
+        image: "/field-notes/interview-20260817-chen/conversation.jpg",
+        imagePosition: "72% 45%",
+        status: "2026.08.17完成訪談・授權與名詞核對中",
+      },
     ],
   },
   {
@@ -213,7 +222,7 @@ export default function PeoplePage() {
           <p>第一版先建立人物分類；後續訪談完成後，每位人物會有公開摘要與相關典藏連結。</p>
         </div>
         <div className="card-grid">
-          <InfoCard label="耆老與職人" title="摃梗製作、操作與換工記憶" status="1位正式訪談＋1位技藝線索">
+          <InfoCard label="耆老與職人" title="摃梗製作、操作與換工記憶" status="2位正式訪談＋1位技藝線索">
             <p>回答工具怎麼做、處理哪些作物、誰負責什麼，以及它何時逐漸消失。</p>
           </InfoCard>
           <InfoCard label="聲音採集" title="黃哲永老師與地方歌謠" status="創作進行中">
