@@ -149,6 +149,30 @@ export default function ArchivePage() {
           <p className="material-credit">資料來源：2026.08.17陳忠和訪談原始檔、現場筆記與照片｜整理日期：2026.08.17｜「摃梗」讀音、地方名詞、作物與年代仍待人工回聽及在地核對；日記與帳簿不公開原件。</p>
         </div>
       </section>
+      <section className="section site-width" id="cai-jinlu-archive">
+        <div className="section-heading archive-heading">
+          <div><p className="eyebrow">第九批田野影像｜2026.08.18</p><h2>蔡金露：鰲鼓的農漁工具、摃梗實作與導覽記憶</h2></div>
+          <p>本批完成跨村初訪，找到一位兼具農漁生活、手工工具、摃梗實作與濕地導覽經驗的地方知情者。</p>
+        </div>
+        <div className="field-gallery">
+          <figure className="field-photo"><img src="/field-notes/interview-20260818-cai-jinlu/interview.jpg" alt="蔡金露接受摃梗與農漁生活記憶訪談" /><figcaption>原始單眼、運動相機、手機錄音與現場筆記同步入庫；網站僅公開經整理的代表影像與摘要。</figcaption></figure>
+          <article className="field-insight"><p className="archive-type">典藏狀態</p><h3>有影音，也有可回到現場試作的技術線索</h3><p>訪談涵蓋芭樂枝芯材、刺竹、金屬螺絲改良、換工、豆科作物與機械化前後的農事記憶；其中台語用詞、年代與工法均待回聽及多人交叉核對。</p><StatusBadge status="內容已索引・口述與授權核對中" /><Link className="arrow-link" href="/projects/gonggen#cai-jinlu-20260818">查看訪談成果與後續試作 <span aria-hidden="true">↗</span></Link></article>
+        </div>
+        <p className="material-credit">資料來源：2026.08.18蔡金露訪談、現場筆記、手機錄音及單眼／運動相機原始檔｜完整影音、家族資訊、導覽運作資訊與位置不公開。</p>
+      </section>
+      <section className="section section-tint" id="bamboo-harvest-archive">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div><p className="eyebrow">第十批田野影像｜2026.08.18</p><h2>刺竹與桂竹正式採集：復刻前的材料日誌起點</h2></div>
+            <p>在前次勘查後，團隊正式採集、修枝、裝車並搬回社區日曬；素材已從「看到竹子」前進到「可以等待試作的材料」。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo"><img src="/field-notes/bamboo-harvest-20260818/materials.jpg" alt="採集後整理成堆準備日曬的竹材" /><figcaption>以成熟刺竹與較細桂竹分別作為不同部位候選；最終尺寸與結構仍需經試作確認。</figcaption></figure>
+            <article className="field-insight"><p className="archive-type">典藏狀態</p><h3>把每一批竹材做成可追溯的材料證據</h3><p>本批包含手機、相機與運動相機紀錄。下一步將補上竹材編號、竹種、尺寸、日曬與裂損狀態，連到梗達人試作與長者試打回饋。</p><StatusBadge status="圖文已整理・日曬與試作追蹤中" /><Link className="arrow-link" href="/projects/gonggen#bamboo-harvest-20260818">查看材料選擇與工作流程 <span aria-hidden="true">↗</span></Link></article>
+          </div>
+          <p className="material-credit">資料來源：2026.08.18採竹現場手機、相機與運動相機原始檔｜參與者個別姓名、肖像與採集位置依公開同意範圍處理。</p>
+        </div>
+      </section>
       <section className="section site-width" id="first-formal-interview">
         <div className="section-heading archive-heading">
           <div>

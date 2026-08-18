@@ -147,6 +147,39 @@ export default function GonggenProjectPage() {
           <p className="material-credit">人物：蔡通彬（東崙農事小組長）｜「梗達人／摃梗製作者」角色待本人與吳淑芳確認｜主訪、拍攝與影像提供：吳淑芳｜影片長度約3分19秒。內容為AI辨識後的初步摘要，台語特殊詞、人名與技術細節需人工回聽及當事人確認。</p>
         </div>
       </section>
+      <section className="section site-width" id="cai-jinlu-20260818">
+        <div className="section-heading archive-heading">
+          <div>
+            <p className="eyebrow">跨村田野訪談・技藝與導覽記憶｜2026.08.18</p>
+            <h2>蔡金露：會做、會改，也知道一件工具怎麼回到地方</h2>
+          </div>
+          <p>這次初訪從塭仔延伸到鰲鼓村。蔡金露長年從事鰲鼓濕地導覽解說，也保有農漁生活與傳統工具的實作記憶；他的經驗讓摃梗不只停在「見過」，而有機會進一步核對製作、使用與改良。</p>
+        </div>
+        <div className="field-gallery interview-gallery">
+          <figure className="field-photo field-photo-wide">
+            <img src="/field-notes/interview-20260818-cai-jinlu/interview.jpg" alt="蔡金露在鰲鼓村接受摃梗與農漁生活記憶訪談" />
+            <figcaption>蔡金露在熟悉的生活空間中口述農漁勞動、傳統工具與導覽經驗；完整影音先保留於原始素材庫。</figcaption>
+          </figure>
+          <article className="field-insight">
+            <p className="archive-type">訪談定位</p>
+            <h3>從十歲左右的操作記憶，延伸到可以再試做的工法線索</h3>
+            <p>他回憶童年跟著父親與牛車做農事，約十歲已會操作、製作摃梗；早期曾以芭樂枝作為芯材、刺竹作為主要竹材，之後嘗試以金屬螺絲調整結構，降低損壞或傷人的風險。這些是珍貴的口述工法線索，仍需與蔡通彬、林瑞彬及試作過程交叉驗證。</p>
+          </article>
+        </div>
+        <div className="usability-grid">
+          <article><strong>工具放回農事裡</strong><p>綠豆、芝麻與豆科作物處理時，幾戶人家會一起曬、一起摃梗，也在換工中分配人力；沒有電力與馬達的條件，使工具、天候與風向都成為勞動的一部分。</p></article>
+          <article><strong>一位地方解說者的視角</strong><p>蔡金露長期參與鰲鼓濕地導覽，並有收集農漁手工工具的興趣。他提出魚塭、農漁具、解說與小旅行可彼此串連的想像，現階段先列為地方願景與後續討論線索。</p></article>
+          <article><strong>本案的邊界與延伸</strong><p>本期仍以塭仔摃梗保存為核心；鰲鼓的經驗補足相鄰聚落的農漁生活、材料來源與導覽知識，不把它混同為本案既定成果或已啟動的營運計畫。</p></article>
+        </div>
+        <div className="prose-grid field-followup">
+          <aside><p className="eyebrow">下一次回訪／試作</p><h3>不只錄口述，也把「做法」拍下來</h3></aside>
+          <article>
+            <p>建議補拍他指認既有農漁工具、說明摃梗竹材與芯材、示範操作手勢，以及改良前後的連結方式；同時量測竹片長度、節距、握持直徑與活動角度。若九月中旬材料乾燥狀況合適，可再確認他是否願意參與梗達人工作坊協力，日期與角色均以本人確認為準。</p>
+            <p><strong>待核對項目：</strong>家族與年代、地方稱呼、竹材取得位置、機械化時間、訓練與導覽相關敘述，皆先保留在原始訪談與工作筆記中，不作網站上的歷史定論。</p>
+          </article>
+        </div>
+        <p className="material-credit">訪談日期：2026.08.18｜受訪者：蔡金露（自述民國42年次；年齡與背景待本人核對）｜主訪與田野連結：吳淑芳｜影像、手機錄音與現場紀錄：黃建凱及團隊。公開文字依現場筆記整理；台語語音、技術名詞、家族與年代需回聽及當事人確認後，再納入正式技藝報告或紀錄片逐字內容。</p>
+      </section>
       <section className="section site-width" id="bamboo-survey-20260812">
         <div className="section-heading archive-heading">
           <div>
@@ -184,6 +217,45 @@ export default function GonggenProjectPage() {
           </article>
         </div>
         <p className="material-credit">拍攝日期：2026.08.12｜地點：嘉義縣東石鄉溪下村周邊｜田野協力：柳婉玲、吳淑芳及在地知情者｜影像：黃建凱與現場手機紀錄｜素材盤點：39段影片、17張照片，影片總長約35分鐘。本頁為資源調查與路線勘查紀錄，非正式採竹；口述摘要待複訪、授權與台語內容核對。</p>
+      </section>
+      <section className="section section-tint" id="bamboo-harvest-20260818">
+        <div className="site-width">
+          <div className="section-heading archive-heading">
+            <div>
+              <p className="eyebrow">正式採竹・材料處理｜2026.08.18</p>
+              <h2>從一片竹叢，到能進入試作的兩種竹材</h2>
+            </div>
+            <p>8月12日先勘查路線與安全條件，8月18日才進入實際採集。這次的收穫不是一件已完成的摃梗，而是一批被分工處理、搬回社區日曬，準備交給實作驗證的材料。</p>
+          </div>
+          <div className="field-gallery">
+            <figure className="field-photo">
+              <img src="/field-notes/bamboo-harvest-20260818/cutting.jpg" alt="採竹現場進行竹材切段與處理" />
+              <figcaption>採集時依用途切段、清除細枝；正式工作坊前仍須依安全流程配置防護裝備、警戒與熟悉工具的操作者。</figcaption>
+            </figure>
+            <figure className="field-photo">
+              <img src="/field-notes/bamboo-harvest-20260818/materials.jpg" alt="採集後整理成堆、準備運回日曬的竹材" />
+              <figcaption>竹材將運回塭仔社區附近空地日曬，待乾燥後再由實作經驗者檢查是否適合進入復刻。</figcaption>
+            </figure>
+            <article className="field-insight">
+              <p className="archive-type">現場分工</p>
+              <h3>砍、修、搬、曬：工具的第一步，是一群人一起把材料準備好</h3>
+              <p>在地青農、協會夥伴與淑芳姐分工採集、修去細枝，再由貨車把材料載回。這段過程可作為紀錄片從「口述記憶」轉入「今日復刻行動」的關鍵段落。</p>
+            </article>
+          </div>
+          <div className="usability-grid">
+            <article><strong>敲擊端：成熟刺竹</strong><p>預計使用較成熟、較扎實的刺竹承擔接觸地面的敲擊端；選材理由是重量與耐用度的初步判斷，仍待試打確認。</p></article>
+            <article><strong>握持端：較細的桂竹</strong><p>依上午訪談得到的握持提醒，團隊另選較細、較容易握持的桂竹作為手持段候選；不是所有部位都用同一種竹材。</p></article>
+            <article><strong>竹齡與乾燥：先建立可驗證流程</strong><p>現場以約二至三年成熟竹材為初步選擇，接下來需記錄長度、直徑、節距、重量、含水與日曬時間，再由多位實作者交叉試用。</p></article>
+          </div>
+          <div className="prose-grid field-followup">
+            <aside><p className="eyebrow">材料日誌</p><h3>讓下一版能知道：哪一段竹子為何能用</h3></aside>
+            <article>
+              <p>日曬期間建議為每一批竹材編號，記錄採集日期、竹種、來源、初始尺寸、裂損、日曬天數與預定用途；試作時再補上「誰試打、哪裡卡住、如何調整」。如此才能把今天的勞動轉成未來教案可複製的材料知識。</p>
+              <p><strong>下一步：</strong>乾燥完成後，以蔡金露、蔡通彬、林瑞彬與其他熟悉農事者的實作意見，確認刺竹／桂竹分段、連結結構與安全性；尚未完成前不宣稱為定型復刻品。</p>
+            </article>
+          </div>
+          <p className="material-credit">拍攝日期：2026.08.18｜內容：刺竹與桂竹採集、切段、去枝、貨車搬運及回塭仔社區附近空地日曬｜參與：吳淑芳、在地青農及協會夥伴（個別姓名與肖像公開範圍待確認）｜影像：黃建凱、現場手機／相機／運動相機紀錄。網站現公開代表照片與田野摘要；完整影音、位置與人員資料留存內部素材庫。</p>
+        </div>
       </section>
       <section className="section section-tint" id="interview-20260817-chen">
         <div className="site-width">

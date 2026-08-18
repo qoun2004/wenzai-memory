@@ -224,6 +224,7 @@ summary {
 .label-dongshi { top: 42%; left: 17%; font-size: 1.3rem; }
 .label-puzi { top: 46%; right: 2%; font-size: .78rem; }
 .label-gangkou { top: 8%; right: 13%; }
+.label-aogu { top: 72%; left: 9%; }
 .label-harbor { top: 51%; left: 3.5%; }
 
 .map-topic {
@@ -257,6 +258,7 @@ summary {
 }
 .relation-wenzai { top: 39%; left: 29%; width: 16%; transform: rotate(-6deg); }
 .relation-donglun { top: 46%; left: 47%; width: 16%; transform: rotate(26deg); }
+.relation-aogu { top: 48%; left: 29%; width: 22%; transform: rotate(116deg); }
 .relation-xiaxi { top: 32%; left: 49%; width: 26%; transform: rotate(-35deg); }
 
 .map-cluster { position: absolute; z-index: 5; min-width: 180px; }
@@ -265,6 +267,7 @@ summary {
 .map-cluster header span { margin-top: .25rem; color: rgba(29,42,37,.6); font-size: .64rem; }
 .cluster-wenzai { top: 24%; left: 18%; }
 .cluster-donglun { top: 54%; left: 53%; }
+.cluster-aogu { top: 67%; left: 11%; }
 .cluster-xilun { bottom: 8%; left: 28%; }
 .cluster-zhongzhou { right: 8%; bottom: 8%; }
 .cluster-xiaxi { top: 16%; right: 7%; }

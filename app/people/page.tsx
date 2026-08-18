@@ -77,6 +77,22 @@ const mapClusters: Array<{
     ],
   },
   {
+    key: "aogu",
+    place: "鰲鼓村・鰲鼓濕地周邊",
+    note: "農漁工具與濕地導覽知識",
+    people: [
+      {
+        name: "蔡金露",
+        role: "地方耆老／濕地導覽解說員／摃梗實作知情者",
+        relation: "農漁生活、摃梗操作與製作改良、傳統工具收藏與導覽",
+        initials: "蔡",
+        image: "/field-notes/interview-20260818-cai-jinlu/interview.jpg",
+        imagePosition: "52% 38%",
+        status: "2026.08.18完成初訪・口述與公開授權核對中",
+      },
+    ],
+  },
+  {
     key: "xilun",
     place: "西崙",
     note: "村落治理與地方記憶",
@@ -193,10 +209,12 @@ export default function PeoplePage() {
             <span className="map-place-label label-dongshi">東石鄉</span>
             <span className="map-place-label label-puzi">往朴子</span>
             <span className="map-landmark label-gangkou">港口宮周邊</span>
+            <span className="map-landmark label-aogu">鰲鼓濕地</span>
             <span className="map-landmark label-harbor">東石漁港</span>
             <div className="map-topic topic-gonggen"><span>本期主題</span><strong>摃梗 × 鹽地雜糧</strong><small>口述・復刻・食農</small></div>
             <div className="map-relation relation-wenzai" aria-hidden="true" />
             <div className="map-relation relation-donglun" aria-hidden="true" />
+            <div className="map-relation relation-aogu" aria-hidden="true" />
             <div className="map-relation relation-xiaxi" aria-hidden="true" />
             {mapClusters.map((cluster) => (
               <section className={`map-cluster cluster-${cluster.key}`} key={cluster.key} aria-label={`${cluster.place}人物`}>
@@ -210,6 +228,7 @@ export default function PeoplePage() {
           <div className="people-map-notes">
             <p><strong>為什麼納入柳婉玲？</strong>她雖不在塭仔核心區，仍具刺竹帶路、田調、食農與地方引介能力，是跨聚落協作的重要在地協同者。</p>
             <p><strong>姓名更正：</strong>2026年8月12日遇見的柳姓長輩確認為柳水鴨；現階段保留為摃梗記憶線索，正式訪談與公開範圍仍待確認。</p>
+            <p><strong>新增鰲鼓節點：</strong>蔡金露的農漁生活、手工農具與濕地導覽經驗，補足摃梗在塭仔以外的區域脈絡；本期成果核心仍是塭仔，不把相鄰村落的經驗混作既定計畫成果。</p>
           </div>
         </div>
       </section>
