@@ -29,10 +29,49 @@ export default function GonggenProjectPage() {
       </section>
       <section className="section site-width">
         <div className="fact-strip">
-          <div className="fact"><strong>2＋1</strong><span>正式訪談＋技藝線索</span></div>
+          <div className="fact"><strong>4條</strong><span>已整理訪談／技藝人物線</span></div>
           <div className="fact"><strong>5場</strong><span>歌謠工作坊</span></div>
           <div className="fact"><strong>1支</strong><span>五分鐘紀錄片</span></div>
           <div className="fact"><strong>2026.10.24</strong><span>成果活動</span></div>
+        </div>
+        <p className="project-progress-note">目前已整理唐榮、蔡通彬、陳忠和與蔡金露四條人物／技藝線；這是田野素材整理進度，不等同完成四份正式逐字稿或取得全部公開授權。</p>
+      </section>
+      <section className="section site-width" id="documentary-progress">
+        <div className="section-heading archive-heading">
+          <div>
+            <p className="eyebrow">紀錄片製作盤點｜2026.08.20</p>
+            <h2>已經拍到什麼，下一次為什麼而拍</h2>
+          </div>
+          <p>現階段先用可追溯的田野證據搭出五分鐘版本，不急著把尚未核對的年代、台語詞彙或單一口述寫成定論。</p>
+        </div>
+        <div className="documentary-progress-grid">
+          <article>
+            <p className="archive-type">人物與生活史</p>
+            <h3>從使用者的記憶看見勞動現場</h3>
+            <p>唐榮與陳忠和的口述，已提供養牛、換工、性別分工、作物輪作、雜貨店賒帳與廟口生活等背景。下一步以錄音回聽核對人名、年代與地方用語。</p>
+          </article>
+          <article>
+            <p className="archive-type">工具與工法</p>
+            <h3>把「會不會動」拍得比「長得像」更重要</h3>
+            <p>蔡通彬、蔡金露與陳忠和的試打意見，可相互核對材料、連接結構、翻轉角度與安全改良。下一輪需保留前後版本，量測並拍下卡頓與調整結果。</p>
+          </article>
+          <article>
+            <p className="archive-type">材料行動線</p>
+            <h3>找竹、採竹、乾燥，已形成可剪的過程</h3>
+            <p>8月12日的雨後勘查與8月18日正式採集，可以組成從受阻、找路到取得材料的連續段落；尚缺乾燥後選別、製作與正式試用。</p>
+          </article>
+          <article>
+            <p className="archive-type">聲音與當代延伸</p>
+            <h3>用歌聲、敲擊與食農回到今天</h3>
+            <p>歌謠工作坊、摃梗聲、豆腐炊煮與地方環境聲，可避免影片只剩訪談。第五場教唱與完整製作聲音仍是後續必要素材。</p>
+          </article>
+        </div>
+        <div className="documentary-next-cut">
+          <div>
+            <p className="eyebrow">下一版工作目標</p>
+            <h3>先完成一條「記憶 → 找材料 → 復刻 → 試打修正」的粗剪骨架</h3>
+          </div>
+          <p>訪談原音只使用已回聽、可辨識且授權範圍明確的片段；待核對內容先作剪輯註記，不作旁白定論。黑豆與歌謠作為連回當代生活的支線，等主工具線成立後再調整篇幅。</p>
         </div>
       </section>
       <section className="section section-tint">

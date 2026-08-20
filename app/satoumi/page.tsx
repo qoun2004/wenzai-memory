@@ -34,6 +34,113 @@ export default function SatoumiPage() {
         </div>
       </section>
 
+      <section id="association-history" className="section association-history">
+        <div className="site-width">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">協會歷程資料庫</p>
+              <h2>從社區行動到大東石里海</h2>
+            </div>
+            <p>摃梗不是突然出現的新計畫，而是多年來水環境、食農食魚、文化記憶、教育與夥伴協力持續累積的一段新篇章。</p>
+          </div>
+
+          <div className="association-context">
+            <p className="association-lead">嘉義縣鄉村永續發展協會長期以東石沿海聚落為行動現場，串連居民、社區、學校、產業與外部團隊，讓地方文化、環境守護與生活產業能一起被看見、被使用。</p>
+            <div className="association-context-note">
+              <strong>組織與協力關係</strong>
+              <p>協會現由林文達理事長帶領，吳淑芳為榮譽理事長。50分生活工作室則是長期協力夥伴，從魚塭養殖、地方產品到食魚教育，與協會行動彼此支援。</p>
+            </div>
+          </div>
+
+          <div className="history-source-summary">
+            <div><strong>2份簡報</strong><span>137頁歷程與經驗分享</span></div>
+            <div><strong>32張照片</strong><span>完整建檔；第一批精選12張上線</span></div>
+            <div><strong>5條主線</strong><span>技藝、環境、食農食魚、地方產品與交流</span></div>
+            <ArrowLink href="/archive/association-history">查看12張歷程精選</ArrowLink>
+          </div>
+
+          <div className="history-timeline">
+            <article className="history-entry">
+              <div className="history-media">
+                <Image src="/association-history/gonggen-history-1997.jpg" alt="民國86年前後以摃梗參與公共活動的歷史影像" fill sizes="(max-width: 760px) 100vw, 40vw" />
+              </div>
+              <div className="history-copy">
+                <p className="history-year">民國86年前後</p>
+                <h3>以農村記憶走進公共場域</h3>
+                <p>簡報與圖像資料記錄塭仔、網寮曾以摃梗等農村生活記憶參與公共活動。這也說明今天的技藝保存，並非從零開始，而是在既有行動上重新整理與延續。</p>
+                <small>活動正式名稱與完整年份仍待回查原始資料。</small>
+              </div>
+            </article>
+            <article className="history-entry">
+              <div className="history-media">
+                <Image src="/association-history/water-environment-award.jpg" alt="協會夥伴於國家環境教育獎活動現場留影" fill sizes="(max-width: 760px) 100vw, 40vw" />
+              </div>
+              <div className="history-copy">
+                <p className="history-year">民國106年</p>
+                <h3>水環境守護獲得肯定</h3>
+                <p>「第6屆國家環境教育獎暨106年度優良水環境巡守隊」的影像，記錄協會與在地夥伴投入水環境與社區守護的行動成果。</p>
+                <small>照片背板可辨識之活動資訊。</small>
+              </div>
+            </article>
+            <article className="history-entry">
+              <div className="history-media">
+                <Image src="/association-history/fish-food-education.jpg" alt="在魚塭邊進行食魚教育與地方餐桌活動的紀錄" fill sizes="(max-width: 760px) 100vw, 40vw" />
+              </div>
+              <div className="history-copy">
+                <p className="history-year">持續累積</p>
+                <h3>把養殖、餐桌與教育連在一起</h3>
+                <p>從魚塭到餐桌，透過食魚教育、地方料理與實作活動，讓參與者理解養殖現場、漁產價值與日常飲食之間的關係。</p>
+                <small>協會與50分生活工作室等長期協力行動的資料紀錄。</small>
+              </div>
+            </article>
+            <article className="history-entry">
+              <div className="history-media">
+                <Image src="/association-history/local-network-market.jpg" alt="協會與地方夥伴在市集展示產品與行動成果" fill sizes="(max-width: 760px) 100vw, 40vw" />
+              </div>
+              <div className="history-copy">
+                <p className="history-year">夥伴共好</p>
+                <h3>讓地方產品與人一起被看見</h3>
+                <p>市集、體驗、導覽與產品展示，讓原本各自努力的養殖戶、店家、社區與青年夥伴有機會相互連結，累積成區域合作的基礎。</p>
+                <small>完整名單與個別合作內容將依夥伴確認持續補登。</small>
+              </div>
+            </article>
+          </div>
+
+          <div className="history-pillars" aria-label="協會長期行動面向">
+            <article><strong>水與生態守護</strong><span>巡守、環境教育與沿海生活地景。</span></article>
+            <article><strong>文化記憶與教學</strong><span>農漁技藝、地方故事、社區學習與世代傳承。</span></article>
+            <article><strong>食農、食魚與產業</strong><span>從產地到餐桌，發展體驗、產品與地方價值。</span></article>
+            <article><strong>人才、旅程與共好</strong><span>串連居民、學校、團隊與不同聚落，形成合作網絡。</span></article>
+          </div>
+
+          <div className="history-current">
+            <p className="eyebrow">目前承接的子計畫</p>
+            <div>
+              <h3>摃梗：鹽地雜糧的記憶與技藝保存</h3>
+              <p>2026年的塭仔摃梗計畫，承接協會既有的地方文化與食農行動，聚焦耆老訪談、歌謠、農具復刻、黑豆與食農教育，並將成果放回大東石里海的長期脈絡。</p>
+              <ArrowLink href="/projects/gonggen">查看目前子計畫</ArrowLink>
+            </div>
+          </div>
+
+          <div className="history-source-preview">
+            <div className="history-source-preview-copy">
+              <p className="eyebrow">不只這四張</p>
+              <h3>32張來源照片已完整建檔，第一批精選12張公開</h3>
+              <p>這裡的四張先建立時間軸，影像精選頁再補上環境守護、地方產品、水域行動與跨域交流。其餘照片保留在內部資料庫，完成核對後再逐步公開。</p>
+              <ArrowLink href="/archive/association-history">打開協會歷程影像精選</ArrowLink>
+            </div>
+            <div className="history-source-preview-images" aria-label="協會歷程來源照片預覽">
+              {[2, 9, 14, 16, 23, 28].map((id) => (
+                <Image key={id} src={`/association-history/source-review/source-${String(id).padStart(2, "0")}.jpg`} alt="協會歷程來源照片預覽" width={480} height={320} />
+              ))}
+            </div>
+          </div>
+
+          <p className="history-source">資料提供：吳淑芳／嘉義縣鄉村永續發展協會歷年簡報與影像資料。</p>
+          <p className="history-rights">目前為內部整理展示；公開使用前將逐項確認肖像、著作權及活動資料。</p>
+        </div>
+      </section>
+
       <section className="section section-tint">
         <div className="site-width">
           <div className="section-heading">

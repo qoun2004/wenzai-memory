@@ -25,6 +25,14 @@ export default function ArchivePage() {
           <div><strong>2009—2025</strong><span>目前索引年代</span></div>
           <div><strong>{publicReferenceItems.length}</strong><span>筆公開文章與資料頁</span></div>
         </div>
+        <div className="source-review-callout">
+          <div>
+            <p className="eyebrow">2026.08.19 新增來源</p>
+            <h2>32張來源照片已建檔，第一批12張精選上線</h2>
+            <p>兩份簡報共137頁，另有32張獨立照片。網站先公開摃梗、環境守護、食農食魚、地方產品、水域行動與跨域交流的代表影像。</p>
+          </div>
+          <Link className="button button-accent" href="/archive/association-history">查看協會歷程影像</Link>
+        </div>
         <div className="section-heading archive-heading">
           <div>
             <p className="eyebrow">第一批公開索引</p>
