@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import SongArchive from "./song-archive";
 import { PageHero, StatusBadge } from "../../components";
 
 export const metadata: Metadata = {
@@ -391,7 +392,7 @@ export default function GonggenProjectPage() {
       <section className="section site-width" id="songs">
         <div className="section-heading">
           <div><p className="eyebrow">聲音線索</p><h2>歌謠不是配樂，而是理解記憶的方法</h2></div>
-          <p>歌詞、旋律、演唱、錄音與影像會分別確認來源及授權。</p>
+          <p>歌詞、旋律、演唱、錄音與影像會分別確認來源及授權。<a href="#song-team-results">閱讀黃哲永老師團隊採錄與創作成果 →</a></p>
         </div>
         <div className="archive-preview">
           <article className="archive-row">
@@ -406,6 +407,7 @@ export default function GonggenProjectPage() {
           </article>
         </div>
       </section>
+      <SongArchive />
       <section className="section section-tint" id="field-notes">
         <div className="site-width">
           <div className="section-heading archive-heading">

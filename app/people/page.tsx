@@ -246,6 +246,7 @@ export default function PeoplePage() {
           </InfoCard>
           <InfoCard label="聲音採集" title="黃哲永老師與地方歌謠" status="創作進行中">
             <p>從耆老記憶、歌謠與地方故事出發，整理並創作新的歌曲，再與長者共同教唱。</p>
+            <a href="/projects/gonggen/#song-team-results">查看團隊分工、歌詞稿與五份採錄摘要 →</a>
           </InfoCard>
           <InfoCard label="地方行動" title="吳淑芳與長期社區工作">
             <p>連結在地人物、既有黑豆資料、食農經驗與大東石區域協作脈絡。</p>
