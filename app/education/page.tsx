@@ -24,8 +24,9 @@ export default function EducationPage() {
           <InfoCard label="勞動體驗" title="摃梗手工脫粒" status="製作中">
             <p>辨識雜糧、理解脫粒原理、操作節奏與早年農村換工情境。</p>
           </InfoCard>
-          <InfoCard label="種植觀察" title="黑豆從田裡到採收" status="2023素材已入庫">
-            <p>土地、季節、開花、結莢、採收與生產影像觀察紀錄。</p>
+          <InfoCard label="種植觀察" title="黑豆從田裡到採收" status="2026.09.16整地紀錄">
+            <p>本次已進行曳引機鬆土，接續記錄播種與生長；往年影像另列為教學參考。</p>
+            <a href="#black-bean-20260916">查看最新整地影像</a>
           </InfoCard>
           <InfoCard label="飲食加工" title="黑豆豆漿與豆腐DIY" status="2026.07.21影像已入庫">
             <p>從黑豆豆漿炊煮、持續攪拌、過濾、入模到壓製成形，連結食品衛生、豆腐庄記憶與地方技術傳承。</p>
@@ -37,6 +38,29 @@ export default function EducationPage() {
             <p>教師版說明、學生觀察單、帶領流程、過敏與工具風險。</p>
           </InfoCard>
         </div>
+      </section>
+      <section className="section site-width" id="black-bean-20260916">
+        <div className="section-heading archive-heading">
+          <div><p className="eyebrow">本次計畫實作紀錄｜2026.09.16</p><h2>等待土地準備好，黑豆食農從整地開始</h2></div>
+          <p>前幾週降雨造成場地積水、土壤過濕鬆軟，整地工作因此延後。近日田地條件轉為適合作業，9月16日以曳引機鬆土，為接下來的黑豆播種做準備。</p>
+        </div>
+        <figure className="field-photo">
+          <video controls playsInline preload="none" poster="/field-notes/black-bean-20260916/C0144.jpg" aria-label="2026年9月16日曳引機整地現場，12秒無聲節錄" style={{width:"100%",aspectRatio:"16 / 9",display:"block",background:"#111"}}>
+            <source src="/field-notes/black-bean-20260916/tillage.mp4" type="video/mp4" />
+            您的瀏覽器不支援影片播放。
+          </video>
+          <figcaption>曳引機鬆土與田間鳥群｜當日現場影片12秒節錄（無聲），非播種或收成畫面。</figcaption>
+        </figure>
+        <div className="field-gallery">
+          <figure className="field-photo"><img loading="lazy" src="/field-notes/black-bean-20260916/C0137.jpg" alt="曳引機於田地邊緣進行黑豆播種前整地" /><figcaption>從田地環境開始，記錄本次黑豆食農的場地準備。</figcaption></figure>
+          <figure className="field-photo"><img loading="lazy" src="/field-notes/black-bean-20260916/C0143.jpg" alt="曳引機翻鬆土壤的正面近景" /><figcaption>曳引機翻鬆土壤，為後續播種做準備。</figcaption></figure>
+        </div>
+        <div className="usability-grid">
+          <article><strong>目前進度</strong><p>已進行鬆土與整地紀錄，尚未播種。後續持續補上播種與生長觀察，連結黑豆及豆腐DIY食農教學。</p></article>
+          <article><strong>跟著土地的時間</strong><p>種植至收成可能跨越本次專案預定執行期；依實際農事進度持續記錄，不預先將收成列為完成成果。</p></article>
+          <article><strong>歷史素材分開呈現</strong><p>淑芳姐先前提供的黑豆照片與影片，作為過往種植紀錄及教學備案，補充作物生命週期，不代表本次已完成播種或收成。</p><a href="#black-bean-history">查看過往黑豆種植紀錄</a></article>
+        </div>
+        <p className="material-credit">拍攝日期：2026.09.16｜來源：本次提供之C0137至C0144現場影片；照片為影片截圖。降雨與作業進度依團隊現場紀錄說明。</p>
       </section>
       <section className="section site-width" id="tofu-workshop-20260721">
         <div className="section-heading archive-heading">

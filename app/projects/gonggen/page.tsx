@@ -94,6 +94,12 @@ export default function GonggenProjectPage() {
         </div>
       </section>
       <section className="section site-width" id="black-bean-film-material">
+        <article className="field-insight">
+          <p className="eyebrow">黑豆種植最新紀錄｜2026.09.16</p>
+          <h2>雨後整地，為黑豆播種做準備</h2>
+          <p>前幾週降雨使場地積水、土壤過濕，近日條件合適後進行曳引機鬆土。目前尚未播種，後續持續記錄；淑芳姐提供的往年種植素材另作教學參考，不混列為本次成果。</p>
+          <Link className="arrow-link" href="/education#black-bean-20260916">查看今日整地影片與照片 <span aria-hidden="true">↗</span></Link>
+        </article>
         <div className="section-heading archive-heading">
           <div><p className="eyebrow">紀錄片前期影像｜2026.07.21</p><h2>黑豆食農不是旁支，而是本案連向今天生活的第二條故事線</h2></div>
           <p>第一批臨場拍攝雖未依正式腳本準備，仍記下社區客廳、豆腐第四代長輩、陳鈺益、黑豆豆漿炊煮與居民DIY，可在紀錄片中承接豆腐庄歷史與當代體驗。</p>
