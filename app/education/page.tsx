@@ -13,6 +13,7 @@ export default function EducationPage() {
         note="第一版先提供教案架構與體驗雛形；正式下載、費用與預約，待實作測試及協會確認後開放。"
       />
       <section className="section site-width">
+        <p><a href="/projects/gonggen/#learning-posters">新增：三份教案橫式簡介與9月27日（暫定）摃梗工作坊海報 →</a></p>
         <div className="section-heading">
           <div><p className="eyebrow">教案資源</p><h2>五個可以持續發展的學習模組</h2></div>
           <p>不是把地方故事變成標準答案，而是設計讓參與者觀察、詢問、操作與比較的方法。</p>

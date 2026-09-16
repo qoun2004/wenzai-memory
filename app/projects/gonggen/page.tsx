@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SongArchive from "./song-archive";
+import LearningPosters from "./learning-posters";
 import { PageHero, StatusBadge } from "../../components";
 
 export const metadata: Metadata = {
@@ -49,6 +50,7 @@ export default function GonggenProjectPage() {
         </div>
         <p className="material-credit">社群原文連結由專案團隊提供；貼文全文、發布日期與互動資訊以Facebook原頁面為準，本頁不另推估觸及或互動數。</p>
       </section>
+      <LearningPosters />
       <section className="section site-width" id="documentary-progress">
         <div className="section-heading archive-heading">
           <div>
