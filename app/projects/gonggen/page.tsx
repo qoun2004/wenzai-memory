@@ -36,6 +36,18 @@ export default function GonggenProjectPage() {
         </div>
         <p className="project-progress-note">目前已整理唐榮、蔡通彬、陳忠和與蔡金露四條人物／技藝線；這是田野素材整理進度，不等同完成四份正式逐字稿或取得全部公開授權。</p>
       </section>
+      <section className="section site-width" id="communication-results">
+        <div className="section-heading archive-heading">
+          <div><p className="eyebrow">專案成果呈現｜社群與數位紀錄</p><h2>讓地方記憶被看見，也讓記錄持續下去</h2></div>
+          <p>透過社群分享、專案網站與影像紀錄，讓更多人認識摃梗、地方故事及黑豆食農。團隊目前仍持續踏查與訪談，後續相關活動、課程與工作坊，歡迎大家持續關注與參與。</p>
+        </div>
+        <div className="usability-grid">
+          <article><strong>社群分享｜計畫內容介紹</strong><p>收錄團隊提供的Facebook貼文連結，作為本案對外分享紀錄，讓關心地方文化的朋友循原文了解計畫。</p><a href="https://www.facebook.com/20531316728/posts/10154009990506729/" target="_blank" rel="noopener noreferrer">閱讀Facebook原貼文 ↗</a></article>
+          <article><strong>專案網站｜持續累積的成果</strong><p>整理人物訪談、農具製作、歌謠與食農影像，保留素材脈絡與實際進度，讓分散的田野紀錄能被查找與閱讀。</p><Link href="/education#black-bean-20260916">查看黑豆整地最新紀錄 →</Link></article>
+          <article><strong>自媒體短影片｜持續製作中</strong><p>現階段先呈現田野影片節錄，作為後續短影音製作素材；正式剪輯與發布後，再補上作品及社群連結。現場素材不等同已發布的短影音成品。</p></article>
+        </div>
+        <p className="material-credit">社群原文連結由專案團隊提供；貼文全文、發布日期與互動資訊以Facebook原頁面為準，本頁不另推估觸及或互動數。</p>
+      </section>
       <section className="section site-width" id="documentary-progress">
         <div className="section-heading archive-heading">
           <div>

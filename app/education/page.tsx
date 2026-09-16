@@ -60,7 +60,20 @@ export default function EducationPage() {
           <article><strong>跟著土地的時間</strong><p>種植至收成可能跨越本次專案預定執行期；依實際農事進度持續記錄，不預先將收成列為完成成果。</p></article>
           <article><strong>歷史素材分開呈現</strong><p>淑芳姐先前提供的黑豆照片與影片，作為過往種植紀錄及教學備案，補充作物生命週期，不代表本次已完成播種或收成。</p><a href="#black-bean-history">查看過往黑豆種植紀錄</a></article>
         </div>
-        <p className="material-credit">拍攝日期：2026.09.16｜來源：本次提供之C0137至C0144現場影片；照片為影片截圖。降雨與作業進度依團隊現場紀錄說明。</p>
+        <h3>手機視角｜同日整地補充紀錄</h3>
+        <p>從田區全景到曳引機近景，以手機補充相機之外的現場視角。這批影像記錄的是播種前的鬆土作業。</p>
+        <div className="field-gallery">
+          <figure className="field-photo"><img loading="lazy" src="/field-notes/black-bean-20260916/phone/IMG_5115.jpg" alt="手機拍攝曳引機在田區翻鬆土壤的橫幅全景" /><figcaption>田區全景：曳引機翻鬆土壤，準備接續黑豆種植。</figcaption></figure>
+          <figure className="field-photo"><img loading="lazy" src="/field-notes/black-bean-20260916/phone/IMG_5123.jpg" alt="曳引機正面近景與後方田間鳥群" style={{height:"auto",aspectRatio:"auto"}} /><figcaption>整地近景：曳引機作業時，田間也可見鳥群活動。</figcaption></figure>
+          <figure className="field-photo"><img loading="lazy" src="/field-notes/black-bean-20260916/phone/IMG_5122.jpg" alt="田埂旁望向正在整地的曳引機與鬆土後的田面" style={{height:"auto",aspectRatio:"auto"}} /><figcaption>從田埂觀察作業範圍與鬆土後的田面。</figcaption></figure>
+          <figure className="field-photo">
+            <video controls playsInline preload="none" poster="/field-notes/black-bean-20260916/phone/poster.jpg" aria-label="手機直式拍攝曳引機整地，11秒無聲節錄" style={{width:"100%",maxHeight:640,aspectRatio:"9 / 16",display:"block",background:"#111",objectFit:"contain"}}>
+              <source src="/field-notes/black-bean-20260916/phone/tillage-vertical.mp4" type="video/mp4" />您的瀏覽器不支援影片播放。
+            </video>
+            <figcaption>手機直式現場影片｜11秒無聲節錄，來源IMG_5124；為田野素材展示，非正式社群短影音成品。</figcaption>
+          </figure>
+        </div>
+        <p className="material-credit">拍攝日期：2026.09.16｜相機來源：C0137至C0144現場影片及截圖；手機照片：IMG_5115、IMG_5122、IMG_5123；手機影片：IMG_5124。原始檔案保留，網站使用輕量化版本。降雨與作業進度依團隊現場紀錄說明。</p>
       </section>
       <section className="section site-width" id="tofu-workshop-20260721">
         <div className="section-heading archive-heading">
