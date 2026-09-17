@@ -1,3 +1,4 @@
+import HistoricalCoursePreview from "../../historical-course-preview";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "../../components";
@@ -21,7 +22,7 @@ export default function AssociationHistoryArchivePage() {
         note="完整來源共32張獨立照片與2份簡報。網站先公開脈絡較清楚的代表影像；未選入不代表不重要，而是仍需補齊年份、人物、拍攝者與使用範圍。"
       />
 
-      <section className="section site-width"><p><a href="/archive/daycare-handmade-paper">新增歷史影像：王柏傑老師指導的日托手作紙課程（7 張）→</a></p></section>
+      <HistoricalCoursePreview />
       <section className="section site-width source-audit-summary">
         <div><strong>2份</strong><span>原始簡報</span><small>共137頁</small></div>
         <div><strong>32張</strong><span>獨立來源照片</span><small>完整原檔已建檔</small></div>

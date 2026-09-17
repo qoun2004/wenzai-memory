@@ -60,6 +60,7 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section site-width" aria-label="協會歷年課程入口"><p className="eyebrow">協會歷年課程</p><h2>日托試辦計畫的手作紙課程</h2><p>王柏傑老師指導，將蚵殼粉、小麥桿與日曆紙碎屑融入手作紙。</p><Link className="button button-accent" href="/about#past-courses">查看協會過去課程與照片 →</Link></section>
       <section className="section site-width intro-split">
         <div>
           <p className="eyebrow">網站定位</p>

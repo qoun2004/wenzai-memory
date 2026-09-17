@@ -1,3 +1,4 @@
+import HistoricalCoursePreview from "../historical-course-preview";
 import type { Metadata } from "next";
 import { ArrowLink, InfoCard, PageHero, SourceNote } from "../components";
 import { associationSources } from "../data";
@@ -17,6 +18,7 @@ export default function AboutPage() {
         note="網站採用完整登記名稱「社團法人嘉義縣鄉村永續發展協會」；歷年沿革、組織成員及計畫清單仍待協會文件逐筆核對。"
       />
 
+      <HistoricalCoursePreview />
       <section className="section site-width">
         <div className="prose-grid">
           <aside>
