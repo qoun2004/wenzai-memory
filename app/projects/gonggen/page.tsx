@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import SongArchive from "./song-archive";
+import ScheduleUpdate from "./schedule-update";
+import HomeTrial from "./home-trial";
 import LearningPosters from "./learning-posters";
 import { PageHero, StatusBadge } from "../../components";
 
@@ -34,9 +36,9 @@ export default function GonggenProjectPage() {
           <div className="fact"><strong>4條</strong><span>已整理訪談／技藝人物線</span></div>
           <div className="fact"><strong>5場</strong><span>歌謠工作坊</span></div>
           <div className="fact"><strong>1支</strong><span>五分鐘紀錄片</span></div>
-          <div className="fact"><strong>2026.10.24</strong><span>成果活動</span></div>
+          <div className="fact"><strong>日期待定</strong><span>成果活動延期</span></div>
         </div>
-        <p className="project-progress-note">目前已整理唐榮、蔡通彬、陳忠和與蔡金露四條人物／技藝線；這是田野素材整理進度，不等同完成四份正式逐字稿或取得全部公開授權。</p>
+        <p className="project-progress-note">原已整理唐榮、蔡通彬、陳忠和與蔡金露四條人物／技藝線，9/17 另補入賴永富居家試作紀錄；這是田野素材整理進度，不等同完成四份正式逐字稿或取得全部公開授權。</p>
       </section>
       <section className="section site-width" id="communication-results">
         <div className="section-heading archive-heading">
@@ -50,6 +52,8 @@ export default function GonggenProjectPage() {
         </div>
         <p className="material-credit">社群原文連結由專案團隊提供；貼文全文、發布日期與互動資訊以Facebook原頁面為準，本頁不另推估觸及或互動數。</p>
       </section>
+      <ScheduleUpdate />
+      <HomeTrial />
       <LearningPosters />
       <section className="section site-width" id="documentary-progress">
         <div className="section-heading archive-heading">

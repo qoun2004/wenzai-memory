@@ -19,6 +19,7 @@ export default function ArchivePage() {
         lead="影片、新聞、文字、訪談聲音、老照片、成果、短影音與教案，不再散落在不同人的硬碟和訊息裡，而是依年代、人物、地點、主題與權利狀態重新建立關係。"
         note="第一批既有公開影音索引已上架。高畫質原始檔、私人資料與尚未取得同意的內容不會直接放在網站主機。"
       />
+      <section className="section site-width"><p className="eyebrow">2026.09.17 新增收錄</p><h2>試作、田間與手作課程的新補充</h2><div className="usability-grid"><article><h3>賴永富居家試作</h3><p>7 張照片與 4 段影片節錄，留下新梗達人的材料處理與試用過程。</p><Link href="/projects/gonggen#lai-yongfu-home-trial">閱讀試作紀錄 →</Link></article><article><h3>歷年黑豆種植與食農</h3><p>5 張照片，補充種植、課程、田間與產品舊影；年份待補。</p><Link href="/education#black-bean-history-supplement">查看黑豆紀錄 →</Link></article><article><h3>日托手作紙課程</h3><p>王柏傑老師指導，蚵殼粉、小麥桿及日曆紙碎屑成為手作紙材料。</p><Link href="/archive/daycare-handmade-paper">閱讀課程舊影 →</Link></article></div></section>
       <section className="section site-width">
         <div className="archive-summary">
           <div><strong>18</strong><span>支不重複公開影音</span></div>

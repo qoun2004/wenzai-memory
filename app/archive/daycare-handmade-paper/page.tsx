@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { PageHero } from "../../components";
+import SourceGallery from "../../source-gallery";
+export const metadata:Metadata={title:"日托試辦計畫｜手作紙課程舊影"};
+const captions=["手作紙課程的共同操作現場：將紙漿成形並整理。","成形後的粉紅色手作紙，保留紙面纖維與碎屑的質感。","紙面上的植物纖維細節；課程材料包含小麥桿。","使用抄紙框，從紙漿槽中進行抄紙。","紙漿與攪拌設備的準備現場。","抄紙框離開紙漿槽，觀察水分與紙漿分布。","持續整理框上的紙漿，留下手作操作過程。"];
+export default function Page(){return <><PageHero eyebrow="協會歷史紀錄｜日托試辦計畫" title="把地方材料，留在一張手作紙裡" lead="多年前，協會在日托試辦計畫中規劃給長輩的週間課程系列，邀請王柏傑老師指導手作紙，將地方材料融入日常學習。" note="依淑芳補充說明整理，2026.09.17 收件；實際活動年份與日期待補。"/><section className="section site-width"><div className="usability-grid"><article><strong>課程脈絡</strong><p>日托試辦計畫，為長輩規劃的週間課程系列。照片保留課程示範、操作及作品樣貌。</p></article><article><strong>指導老師</strong><p>王柏傑老師。姓名與課程關係依本次提供者的說明記錄。</p></article><article><strong>手作紙材料</strong><p>加入蚵殼粉、小麥桿與日曆紙碎屑。照片記錄材料與紙面質感，不推定個別紙張的配方或比例。</p></article></div><SourceGallery base="/history/daycare-handmade-paper" items={captions.map((caption,i)=>({file:`paper-${String(i+1).padStart(2,"0")}.jpg`,caption}))}/><p className="material-credit">來源：本次提供的 7 張歷史照片與課程說明。屬協會過往日托試辦紀錄，不列入 2026 摃梗計畫的已完成活動或核銷成果。</p><p><a href="/archive">返回地方知識庫 →</a>　<a href="/education#black-bean-history-supplement">查看歷年黑豆食農影像 →</a></p></section></>}

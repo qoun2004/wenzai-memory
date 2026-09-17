@@ -185,6 +185,7 @@ export default function PeoplePage() {
         lead="長者記得工具怎麼用，婦女把地方食材做成可以帶走的產品，青年重新設計體驗，社區工作者把不同聚落與團隊連在一起。"
         note="人物姓名、店家名稱與口述內容，待本人同意及資料核對後逐步公開。"
       />
+      <section className="section site-width"><p className="eyebrow">新增梗達人</p><h2>賴永富｜從居家試作開始</h2><p>先在家拿材料試作摃梗，已預約參與 10/3 梗達人工作坊。</p><a href="/projects/gonggen#lai-yongfu-home-trial">查看照片與試作影片 →</a></section>
       <section className="section site-width" id="people-map">
         <div className="section-heading">
           <div>

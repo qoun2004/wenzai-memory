@@ -13,6 +13,7 @@ export default function VisitPage() {
         lead="未來可從摃梗、黑豆豆腐、聚落踏查、農漁產業與地方餐桌，組成90分鐘、半日或一日的塭仔體驗。"
         note="主要活動場域已確認為『塭仔的青春美夢』；交通、費用、承載人數、保險與預約方式仍待協會確認，目前不開放線上收費。"
       />
+      <section className="section site-width"><p><strong>活動更新：</strong>梗達人工作坊確定 2026/10/3；原訂 10/24 成果活動延期，新日期待定。</p><a href="/projects/gonggen#schedule-update">查看邀約進度與活動資訊 →</a></section>
       <section className="section site-width">
         <div className="card-grid">
           <InfoCard label="主要場域" title="塭仔的青春美夢／FOODTALK客廳" status="本案活動場地">

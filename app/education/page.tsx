@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import BlackBeanHistory from "./black-bean-history";
 import { InfoCard, PageHero } from "../components";
 
 export const metadata: Metadata = { title: "食農教育與體驗" };
@@ -12,8 +13,9 @@ export default function EducationPage() {
         lead="這裡不只是活動消息，而是可長期使用的教育資源中心。每份教案都會標示對象、目標、時間、材料、場地、安全與帶領方式。"
         note="第一版先提供教案架構與體驗雛形；正式下載、費用與預約，待實作測試及協會確認後開放。"
       />
+      <BlackBeanHistory />
       <section className="section site-width">
-        <p><a href="/projects/gonggen/#learning-posters">新增：三份教案橫式簡介與9月27日（暫定）摃梗工作坊海報 →</a></p>
+        <p><a href="/projects/gonggen/#schedule-update">三份教案橫式簡介；梗達人工作坊已確定 10/3，成果活動延期 →</a></p>
         <div className="section-heading">
           <div><p className="eyebrow">教案資源</p><h2>五個可以持續發展的學習模組</h2></div>
           <p>不是把地方故事變成標準答案，而是設計讓參與者觀察、詢問、操作與比較的方法。</p>
